@@ -230,6 +230,12 @@ body {
   padding: 8px;
 }
 
+.alert-news {
+  padding: 8px;
+  background-color: lightgreen;
+
+}
+
 .list-simple {
   padding-left: 15px;
 }
