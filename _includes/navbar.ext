@@ -73,11 +73,13 @@
                 <li><a href="/contact.html">Contact us</a></li>
                 <li><a href="/nppsorg.html">NPPS organization</a><li>
                 <li><a href="/who.html">Who we are</a></li>
+                <li><a href="/howto-website.html">Website info and howto</a></li>
+                
+                <li class="divider"></li>
                 <li><a href="https://www.bnl.gov/physics/" target="_blank">Physics at BNL</a></li>
                 <li><a href="https://www.sdcc.bnl.gov/" target="_blank">Scientific computing at BNL</a></li>
                 <li><a href="https://hepsoftwarefoundation.org" target="_blank">Community software</a></li>
-                <li class="divider"></li>
-                <li><a href="/howto-website.html">Website info and howto</a></li>
+
               </ul>
             </li>
           </ul>
