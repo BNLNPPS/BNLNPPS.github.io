@@ -59,4 +59,20 @@ For meeting and event information see the appropriate sections of this site.
 
 NPPS hosts and organizes topical meetings, workshops, tutorials etc., often collaboratively with others. NPPS personnel are involved in community activities through e.g. HSF.
 
+## Partners and collaborators 
+
+NPPS partners and collaborates with other groups and organizations within and outside BNL. Prominent ones are
+   - Omega
+   - Electronic Detector Group (EDG)
+   - STAR
+   - PHENIX
+   - RHIC spin
+   - Astrophysics and cosmology
+   - SDCC/RACF
+   - CSI
+   - US ATLAS operations program
+   - US Belle II operations program
+   - DUNE computing consortium
+   - LSST DESC
+   - HEP Software Foundation
 
