@@ -1,0 +1,40 @@
+
+<h1>{{ page.title }}</h1>
+<br>
+
+<p>
+{% if page.ref.size > 0 %}
+    <a href="{{page.ref}}">Website</a>
+{% endif %}
+</p>
+
+<p>
+<b>Participants:</b> &nbsp;
+
+{% for person in site.people %}
+    {% if person.experiments contains {{page.experiment}} %}
+        <br> &nbsp; &nbsp; <a href="{{person.url}}">{{ person.title }}</a> &nbsp; &nbsp; 
+    {% endif %}
+{% endfor %}
+</p>
+
+<p>
+<b>Technical teams:</b> &nbsp;
+
+{% for team in site.techteams %}
+    {% if page.teams contains {{team.team}} %}
+        <br> &nbsp; &nbsp; <a href="{{team.url}}">{{ team.title }}</a> &nbsp; &nbsp; 
+    {% endif %}
+{% endfor %}
+</p>
+
+<p>
+<b>Software:</b> &nbsp;
+
+{% for software in site.software %}
+    {% if page.software contains {{software.software}} %}
+        <br> &nbsp; &nbsp; <a href="{{software.url}}">{{ software.title }}</a> &nbsp; &nbsp; 
+    {% endif %}
+{% endfor %}
+</p>
+

@@ -1,0 +1,53 @@
+
+<h1> {{ page.title }} </h1>
+<p>
+  {% if page.tags contains 'grouplead' %}
+    <br>NPPS group leader
+  {% endif %}
+
+  {% if page.tags contains 'leader' %}
+    <br>NPPS leadership team member
+  {% endif %}
+
+  {% if page.tags contains 'member' %}
+    <br>NPPS group member
+  {% endif %}
+
+  {% if page.tags contains 'collaborator' %}
+    <br>NPPS collaborator
+  {% endif %}
+  
+  {% if page.orcid != "" %}
+    <br>Orcid ID: &nbsp; <a href="http://orcid.org/{{page.orcid}}">{{page.orcid}}</a>
+  {% endif %}
+</p>
+
+<p>
+<b>Experiments:</b>
+
+{% for experiment in site.experiments %}
+  {% if page.experiments contains experiment.experiment %}
+    <br> &nbsp; &nbsp;  <a href="{{ experiment.url }}">{{ experiment.title}}</a>
+  {% endif %}
+{% endfor %}
+</p>
+
+<p>
+<b>Technical teams:</b>
+
+{% for team in site.techteams %}
+  {% if page.teams contains team.team %}
+    <br> &nbsp; &nbsp;  <a href="{{ team.url }}">{{ team.title}}</a>
+  {% endif %}
+{% endfor %}
+</p>
+
+<p>
+<b>Software:</b>
+
+{% for software in site.software %}
+  {% if page.software contains software.software %}
+    <br> &nbsp; &nbsp;  <a href="{{ software.url }}">{{ software.title}}</a>
+  {% endif %}
+{% endfor %}
+</p>

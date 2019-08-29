@@ -1,0 +1,35 @@
+---
+title: NPPS Who's Who
+layout: default
+---
+
+<h1> Who we are </h1>
+
+<br>
+<p>
+Group leader: <a href="/people/wenaus.html">Torre Wenaus</a>
+</p>
+
+<h2>NPPS leadership team</h2>
+
+{% for who in site.people %}
+  {% if who.tags contains 'leader' %}
+    <p><a href="{{ who.url }}" role="button">{{ who.title }}</a></p>
+  {% endif %}
+{% endfor %}
+
+<h2>NPPS group members</h2>
+
+{% for who in site.people %}
+  {% if who.tags contains 'member' %}
+    <p><a href="{{ who.url }}" role="button">{{ who.title }}</a></p>
+  {% endif %}
+{% endfor %}
+
+<h2>NPPS collaborators</h2>
+
+{% for who in site.people %}
+  {% if who.tags contains 'collaborator' %}
+    <p><a href="{{ who.url }}" role="button">{{ who.title }}</a></p>
+  {% endif %}
+{% endfor %}

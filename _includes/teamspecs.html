@@ -1,0 +1,23 @@
+
+<h1> {{ page.title }} </h1>
+
+<br>
+
+<p>
+<b>Participants:</b>
+
+{% for person in site.people %}
+  {% if person.teams contains page.team %}
+    <br> &nbsp; &nbsp;  <a href="{{ person.url }}">{{ person.title}}</a>
+  {% endif %}
+{% endfor %}
+</p>
+
+<p>
+<b>Experiments:</b>
+{% for experiment in site.experiments %}
+  {% if experiment.teams contains page.team %}
+    <br> &nbsp; &nbsp;  <a href="{{ experiment.url }}">{{ experiment.title}}</a>
+  {% endif %}
+{% endfor %}
+</p>

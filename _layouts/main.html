@@ -1,0 +1,147 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="col-sm-12 blog-main">
+
+<hr>
+        <div class=row>
+          <div class="col-md-5">
+            <img src="/images/bnlnpps.png" alt="NPPS Logo" width="400">
+          </div>
+          <div class="col-md-7">
+            <p class="lead">
+
+<!--
+The Nuclear and Particle Physics Software (NPPS) Group in Brookhaven National Laboratory's Physics Department participates in a wide range of experiments including ATLAS at CERN's Large Hadron Collider; STAR, PHENIX and sPHENIX at BNL’s RHIC heavy ion collider; the future electron-ion collider (EIC); the Belle II B factory at KEK; and the DUNE long baseline neutrino facility. NPPS provides software and expertise across many technical areas, with a particular emphasis on common software solutions.
+-->
+
+The Nuclear and Particle Physics Software (NPPS) Group in Brookhaven National Laboratory's Physics Department participates in a wide range of experiments across BNL's nuclear and particle physics programs. NPPS provides software and expertise across many technical areas, with a particular emphasis on common software solutions.
+
+</p>
+      </div>
+      </div>
+
+<hr>
+
+<!-- Important announcements from announcements/_posts -->
+  {% assign sitedate = site.time | date: "%Y-%m-%d"   %}
+  {% for post in site.categories.announcements reversed %}
+    {% assign stopdate = post.until | string_to_date | date: "%Y-%m-%d" %}
+    {% if stopdate > sitedate %}
+<div class="row alert alert-warning">
+  <p class="lead event-announce">
+    <span class="glyphicon {{ post.symbol }}" aria-hidden="true"></span> {{ post.title }} (<a href="{{ post.link }}">more info</a>)
+  </p>
+</div>
+    {% endif %}
+  {% endfor %}
+
+<hr>
+
+ <!-- Various boxes with more information -->
+<div class="row">
+
+ <div class="col-lg-4">
+  <h2>Experiments</h2>
+    <p>
+      NPPS members participate in many of BNL's nuclear and particle physics experiments and programs, working as members of experiment software teams. We also participate in community projects such as the HSF.
+    </p>
+
+    <ul class="list list-simple">
+{% assign pagedate = site.time | date: "%Y-%m-%d"   %}
+{% for post in site.categories.organization limit: 3 %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+    </ul>
+
+   {% for experiment in site.experiments %}
+       <p><a href="{{ experiment.url }}" role="button">{{ experiment.title }}</a></p>
+   {% endfor %}
+  </div>
+
+
+ <div class="col-lg-4">
+ 	<h2>Technical Teams</h2>
+    	<p> Beyond experiment-specific work, NPPS members and collaborators make up technical teams spanning the group's many areas of expertise. Teams may be actively engaged in cross-experiment projects or may act as technical forums sharing expertise and exploring common project opportunities.
+    	</p>
+    	
+    {% for techteam in site.techteams %}
+        <p><a href="{{ techteam.url }}" role="button">{{ techteam.title }}</a></p>
+    {% endfor %}
+
+  </div>
+
+ <div class="col-lg-4">
+ 	<h2>Software</h2>
+    	<p> NPPS members and collaborators have developed and/or have expertise on many software products and projects, many of which are (or could be) multi-experiment <b>common software</b>.
+    	</p>
+    	
+    {% for sw in site.software %}
+        <p><a href="{{ sw.url }}" role="button">
+        {% if sw.common %}
+            <b> {{ sw.title }} </b>
+        {% else %}
+            {{ sw.title }}
+        {% endif %}
+        </a></p>
+    {% endfor %}
+  </div>
+
+ <div class="col-lg-4">
+  <h2>Meetings &amp; Events</h2>
+    <p>
+      NPPS holds nominally weekly meetings which are open to all. Agendas
+      are found in <a href="https://indico.bnl.gov/category/255/">BNL indico</a>.
+      Meetings are announced on the open <code>phys-soft-comp-l@lists.bnl.gov</code> mailing list.
+      We also organize topical meetings, workshops, seminars and tutorials.
+    </p>
+
+    <p><a href="https://indico.bnl.gov/category/255/" role="button" target="_blank">Meeting agendas </a></p>
+    <p><a href="https://docs.google.com/document/d/1YfTyXPeXNQU4XUB28bvHJolgyBIJ2bfrd0u9Gd3WD70/edit?usp=sharing" role="button" target="_blank">Meeting notes </a></p>
+    <p><a href="/seminars.html" role="button">NPPS seminar series </a></p>
+    <p><a href="/eic-roundtable.html" role="button">EIC software round table </a></p>
+    <p><a href="/events-calendar.html" role="button" target="_blank">NPPS events calendar </a></p>
+    <p><a href="https://hepsoftwarefoundation.org/activities/software-forum.html" role="button" target="_blank">HSF software forum</a></p>
+    <p><a href="https://hepsoftwarefoundation.org/Schools/events.html" role="button" target="_blank">HSF training calendar</a></p>
+    <p><a href="https://calendar.google.com/calendar/embed?src=e4v33e1a1drbncdle1n03ahpcs%40group.calendar.google.com&ctz=Europe/Amsterdam" role="button" target="_blank">HSF community calendar</a></p>
+
+    <ul class="list list-simple">
+{% assign pagedate = site.time | date: "%Y-%m-%d"   %}
+{% for post in site.categories.organization limit: 3 %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+    </ul>
+
+  </div>
+
+ <div class="col-lg-4">
+  <h2>About the group</h2>
+    <p>
+
+    </p>
+
+    <p><a href="/contact.html" role="button">Contact us </a></p>
+    <p><a href="/nppsorg.html" role="button">NPPS organization </a></p>
+    <p><a href="/who.html" role="button">Who we are </a></p>
+  </div>
+
+ <div class="col-lg-4">
+  <h2>Resources</h2>
+    <p>
+
+    </p>
+
+    <p><a href="/documents.html" role="button">Documents </a></p>
+    <p><a href="/support.html" role="button">Support &amp; operations </a></p>
+    <p><a href="https://github.com/BNLNPPS" role="button" target="_blank">BNLNPPS in GitHub</a></p>
+
+  </div>
+
+</div>
+
+  {{ content }}
+
+  </div>
+</div>

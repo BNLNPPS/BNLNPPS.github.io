@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>{{ page.title }}</title>
+    <link rel="icon" type="image/x-icon" href="{{ "/images/hsf_logo_angled.png" | prepend: site.baseurl }}">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/npps.css" type="text/css" />
+</head>
+<body>
+{% include navbar.ext %}
+
+<div class="container">
+
+  {{ content }}
+
+<br><br>
+<hr>
+<div class="page-footer text-center">
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>,
+<a href="http://jekyllrb.com/">Jekyll</a>,
+<a href="https://shopify.github.io/liquid/">Liquid</a>,
+<a href="http://getbootstrap.com/">Bootstrap</a>
+and the <a href="http://hepsoftwarefoundation.org/">HEP Software Foundation</a>.
+
+<br><br>
+<a href="https://www.bnl.gov"><img src="/images/BNL_Logo_Small.jpg" height=60></a>
+<br><br>
+<a href="https://www.energy.gov/science/hep/high-energy-physics"><img src="/images/doe-logo-1024x257.png" height=30></a>
+
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>
