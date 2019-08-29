@@ -61,7 +61,7 @@ NPPS hosts and organizes topical meetings, workshops, tutorials etc., often coll
 
 ## Partners and collaborators 
 
-NPPS partners and collaborates with other groups and organizations within and outside BNL. Prominent ones are
+NPPS partners and collaborates with other groups and organizations within and outside BNL, including
    - Omega
    - Electronic Detector Group (EDG)
    - STAR
