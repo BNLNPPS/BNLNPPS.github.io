@@ -1,5 +1,6 @@
 ---
 title: Chris Pinkenburg
+name: pinkenburg
 experiments: phenix sphenix eic
 teams: reconstruction simulation core
 software: fun4all

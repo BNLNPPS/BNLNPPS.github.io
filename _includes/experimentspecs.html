@@ -38,3 +38,29 @@
 {% endfor %}
 </p>
 
+<p>
+<b>Materials:</b>
+
+{% for item in site.data.assets reversed %}
+
+  {% if item.experiment contains page.experiment %}
+
+    {% if item.date %}
+        {% assign date = item.date | string_to_date | date: "%Y-%m-%d" %}
+    {% else %}
+        {% assign date = item.name | remove: "/assets/documents/" | string_to_date | date: "%Y-%m-%d" %}
+    {% endif %}
+
+    <br> &nbsp; &nbsp; <a href="{{item.name}}" target="_blank">{{item.title}}</a>, 
+
+    <!-- horrible, but liquid has no named element arrays or dicts -->
+    {% for person in site.data.people %}
+      {% if person.name == item.author %}
+        &nbsp;  <a href="/people/{{person.name}}">{{ person.full }}</a>, {{ itemdate | date: "%b %Y" }}
+      {% endif %}
+    {% endfor %}
+
+    &nbsp; {{ date | date: "%b %Y" }}
+  {% endif %}
+{% endfor %}
+</p>

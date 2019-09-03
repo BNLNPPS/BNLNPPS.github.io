@@ -41,15 +41,6 @@ e.g., the author of the document or the title of the document.
 
 In the *front-matter* (but not in the text itself), you need to replace any `&` characters (which has a special meaning in HTML) by `&amp;`. This is particularly important for the `title` attribute.
 
-### Adding contents from GoogleDoc
-
-It is sometimes handy to use GoogleDoc to produce some contents for the web site. For example, if taking minutes
-during a meeting, it allows several people to contribute to the effort of note taking and other persons who attended the
-meeting to validate/update them. It is then easy to convert a properly formatted GoogleDoc (using standard heading
-levels) to Markdown for inserting it into the website. Look at our [documentation](/jekyll-beginners.html) on how to
-do it.
-
-
 ### Adding experiments/projects, tech teams, software
 
 Add a new file in the `_experiments`, `_techteams` or `_software` directory and follow the *front-matter* of the
@@ -63,6 +54,18 @@ get a new box with all information.
 
 Please don't forget adding an event ``until`` in the *front-matter*: this is used for ordering events **and** as the end date
 for adding the event in the ``Upcoming Events`` sidebar.
+
+### Adding slides and documents
+
+Add the new item to `_data/assets.yml`. Note the metadata on the items there. If the item is at a link, you're done, just be sure to include metadata for date and type (slides/document). If you have corresponding material like a pdf to add, add it under `assets/`. Follow the placement (slides/documents subdirectory) and naming conventions (date comes first in name). If you enter metadata for experiment, software, and tech team in `assets.yml` the item will show up on the appropriate experiment, software, and tech team pages (as well as the author's page). 
+
+### Adding contents from GoogleDoc
+
+It is sometimes handy to use GoogleDoc to produce some contents for the web site. For example, if taking minutes
+during a meeting, it allows several people to contribute to the effort of note taking and other persons who attended the
+meeting to validate/update them. It is then easy to convert a properly formatted GoogleDoc (using standard heading
+levels) to Markdown for inserting it into the website. Look at our [documentation](/jekyll-beginners.html) on how to
+do it.
 
 ## Technical details
 

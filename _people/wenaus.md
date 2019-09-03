@@ -1,5 +1,6 @@
 ---
 title: Torre Wenaus
+name: wenaus
 experiments: atlas eic dune lsst hsf
 teams: collabtools simulation wfm hpc
 software: panda idds hepsoftware eventservice

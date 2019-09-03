@@ -1,5 +1,6 @@
 ---
 title: Victor Perevoztchikov
+name: perevoztchikov
 experiments: star
 teams: simulation reconstruction core
 software: rootframework

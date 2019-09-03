@@ -1,5 +1,6 @@
 ---
 title: Gene Van Buren
+name: vanburen
 experiments: star
 teams: simulation reconstruction
 tags: member leader

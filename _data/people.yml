@@ -1,0 +1,68 @@
+- name: adams
+  full: David Adams
+
+- name: arkhipkin
+  full: Dmitry Arkhipkin
+
+- name: elmsheuser
+  full: Johannes Elmsheuser
+
+- name: jaikar
+  full: Amol Jaikar
+
+- name: kauder
+  full: Kolja Kauder
+
+- name: kiselev
+  full: Alexander Kiselev
+
+- name: klimentov
+  full: Alexei Klimentov
+
+- name: laycock
+  full: Paul Laycock
+
+- name: maeno
+  full: Tadashi Maeno
+
+- name: mashinistov
+  full: Ruslan Mashinistov
+
+- name: nilsson
+  full: Paul Nilsson
+
+- name: nowak
+  full: Marcin Nowak
+
+- name: padolski
+  full: Sergey Padolski
+
+- name: panitkin
+  full: Sergey Panitkin
+
+- name: perevoztchikov
+  full: Victor Perevoztchikov
+
+- name: pinkenburg
+  full: Chris Pinkenburg
+
+- name: potekhin
+  full: Maxim Potekhin
+
+- name: smirnov
+  full: Dmitri Smirnov
+
+- name: undrus
+  full: Alex Undrus
+
+- name: vanburen
+  full: Gene Van Buren
+
+- name: viren
+  full: Brett Viren
+
+- name: wenaus
+  full: Torre Wenaus
+
+- name: ye
+  full: Shuwei Ye

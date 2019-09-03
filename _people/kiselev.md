@@ -1,5 +1,6 @@
 ---
 title: Alexander Kiselev
+name: kiselev
 experiments: eic
 teams: simulation reconstruction core
 software: eicroot eicsmear

@@ -59,20 +59,20 @@ For meeting and event information see the appropriate sections of this site.
 
 NPPS hosts and organizes topical meetings, workshops, tutorials etc., often collaboratively with others. NPPS personnel are involved in community activities through e.g. HSF.
 
-## Partners and collaborators 
+## Collaborators 
 
-NPPS partners and collaborates with other groups and organizations within and outside BNL, including
-   - Omega
-   - Electronic Detector Group (EDG)
-   - STAR
-   - PHENIX
-   - RHIC spin
-   - Astrophysics and cosmology
-   - SDCC/RACF
-   - CSI
-   - US ATLAS operations program
-   - US Belle II operations program
+NPPS collaborates with groups and organizations within and outside BNL, including
+   - [Omega](https://www.bnl.gov/omega/)
+   - [Electronic Detector Group (EDG)](https://www.phy.bnl.gov/edg/w/Main_Page)
+   - [STAR](https://www.star.bnl.gov)
+   - [PHENIX](https://www.phenix.bnl.gov)
+   - [RHIC spin](https://wiki.bnl.gov/rhicspin/RHIC_Spin_Group)
+   - [Cosmology and astrophysics](https://www.cosmo.bnl.gov)
+   - [SDCC/RACF](https://www.sdcc.bnl.gov)
+   - [CSI](https://www.bnl.gov/compsci/)
+   - [US ATLAS operations program](https://po.usatlas.bnl.gov/programoffice/op.php)
+   - [Belle II](https://www.belle2.org)
    - DUNE computing consortium
-   - LSST DESC
-   - HEP Software Foundation
+   - [LSST DESC](https://lsstdesc.org)
+   - [HEP Software Foundation](https://hepsoftwarefoundation.org)
 

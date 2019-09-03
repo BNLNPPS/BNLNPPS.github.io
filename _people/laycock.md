@@ -1,5 +1,6 @@
 ---
 title: Paul Laycock
+name: laycock
 experiments: belleii dune hsf
 teams: databases ddm wfm analysis
 software: conddb rucio dirac

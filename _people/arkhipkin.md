@@ -1,5 +1,6 @@
 ---
 title: Dmitry Arkhipkin
+name: arkhipkin
 experiments: star
 teams: databases collabtools
 software: 

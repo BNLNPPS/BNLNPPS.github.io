@@ -1,0 +1,73 @@
+- name: /assets/slides/2019-05-17-laycock-BelleIISoftware.pdf
+  title: Belle II software overview
+  author: laycock
+  experiment: belle2
+
+- name: /assets/slides/2019-05-24-nilsson_PilotOverview.pdf
+  title: PanDA pilot overview (NPPS intro talk)
+  author: nilsson
+  experiment: atlas
+  software: panda pandapilot
+  team: wfm
+  
+- name: /assets/slides/2019-05-24-potekhin-protodune-dqm.pdf
+  title: Data quality monitoring for ProtoDUNE (NPPS intro talk)
+  author: potekhin
+  experiment: dune
+
+- name: /assets/slides/2019-06-05-arkhipkin-star-databases.pdf
+  title: STAR databases (NPPS intro talk)
+  author: arkhipkin
+  experiment: star
+  team: databases
+
+- name: /assets/slides/2019-06-05-viren-dune4npps.pdf
+  title: DUNE software overview
+  author: viren
+  experiment: dune
+
+- name: /assets/slides/2019-06-12-jaikarProduction.pdf
+  title: PHENIX and STAR production (NPPS intro talk)
+  author: jaikar
+  experiment: phenix star
+
+- name: /assets/slides/2019-06-12-klimentov-ATLAS-SC-BNL.pdf
+  title: ATLAS software at BNL
+  author: klimentov
+  experiment: atlas
+
+- name: /assets/slides/2019-06-19-maeno-PanDA.pdf
+  title: The PanDA workload management system (NPPS intro talk)
+  author: maeno
+  experiment: atlas
+  software: panda
+  team: wfm
+
+- name: /assets/slides/2019-07-03-pinkenburg-sphenix.pdf
+  title: sPHENIX software overview
+  author: pinkenburg
+  experiment: sphenix
+
+- name: /assets/slides/2019-07-03-undrus_atlas-sw-infra.pdf
+  title: ATLAS software infrastructure (NPPS intro talk)
+  author: undrus
+  experiment: star
+  team: swsupport
+
+- name: /assets/slides/2019-07-24-elmsheuser-AMSGR3.pdf
+  title: The ATLAS Run-3 analysis model (NPPS intro talk)
+  author: elmsheuser
+  experiment: atlas
+
+- name: https://indico.bnl.gov/event/6284/timetable/?view=standard
+  title: From Raw Data to Physics Results, Physics Dept Summer Lecture Series 2019
+  type: slides
+  format: link
+  date: 2019-07-20
+  author: laycock
+
+- name: /assets/slides/2019-08-23-kiselev-eic-software.pdf
+  title: EIC software overview
+  author: kiselev
+  experiment: eic
+  

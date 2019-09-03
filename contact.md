@@ -13,7 +13,4 @@ The group administrator is Carlene Santiago, `csantiago@bnl.gov`, 631-344-6345, 
 
 Our meetings generally use BlueJeans for remote connectivity via [bnl.bluejeans.com](https://bnl.bluejeans.com).
 
-For office and phone information use the people search on the [BNL website](http://www.bnl.gov).
-
-
-
+For office and phone information use [the Physics Department directory](https://www.phy.bnl.gov/DepartmentDirectory/searchDirectory.php).

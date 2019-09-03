@@ -1,5 +1,6 @@
 ---
 title: Amol Jaikar
+name: jaikar
 experiments: star
 teams: swsupport userinterface
 software: 

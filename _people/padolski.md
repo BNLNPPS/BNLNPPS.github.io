@@ -1,5 +1,6 @@
 ---
 title: Sergey Padolski
+name: padolski
 experiments: atlas
 teams: wfm ddm userinterface collabtools
 software: pandamon
