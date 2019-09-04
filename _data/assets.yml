@@ -71,3 +71,12 @@
   author: kiselev
   experiment: eic
   
+- name: https://plexoos.github.io/pub-docs/npps-intro-activities/#/
+  title: Summary of select activities (Intro talk)
+  type: slides
+  format: link
+  date: 2019-09-4
+  author: smirnov
+  experiment: star
+
+  
