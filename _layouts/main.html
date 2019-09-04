@@ -23,7 +23,7 @@ The Nuclear and Particle Physics Software (NPPS) Group in Brookhaven National La
       </div>
       </div>
 
-<hr>
+<h2>News - <a href="/announcements">More info</a></h2>
 
 <!-- Important announcements from announcements/_posts -->
   {% assign sitedate = site.time | date: "%Y-%m-%d"   %}
@@ -32,13 +32,12 @@ The Nuclear and Particle Physics Software (NPPS) Group in Brookhaven National La
     {% if stopdate > sitedate %}
 <div class="row alert alert-news">
   <p class="lead event-announce">
-    <span class="glyphicon {{ post.symbol }}" aria-hidden="true"></span> {{ post.title }} &nbsp; (<a href="{{ post.link }}">more info</a>)
+    <span class="glyphicon {{ post.symbol }}" aria-hidden="true"></span> {{ post.title }}
+    <!-- >&nbsp; (<a href="{{ post.link }}">more info</a>) -->
   </p>
 </div>
     {% endif %}
   {% endfor %}
-
-<hr>
 
  <!-- Various boxes with more information -->
 <div class="row">
