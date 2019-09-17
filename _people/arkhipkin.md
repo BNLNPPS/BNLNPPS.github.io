@@ -1,7 +1,7 @@
 ---
 title: Dmitry Arkhipkin
 name: arkhipkin
-experiments: star
+experiments: star eic
 teams: databases collabtools
 software: 
 tags: member
