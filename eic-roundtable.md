@@ -1,8 +1,8 @@
 ---
-title: EIC round table seminar series
+title: JLab/BNL Software and Computing Round Table
 layout: default
 ---
 
-# EIC round table seminar series
+# JLab/BNL Software and Computing Round Table
 
-We plan to initiate a series of software and computing seminars on topics within or relevant to nuclear and particle physics, in conjunction with SDCC.
+Brookhaven and Jefferson Labs are organizing a Software and Computing Round Table, a monthly distributed forum for presenting and discussing topics of interest within our scientific community. The interplay between computing and science is ever tighter in NP, HEP and other fields, particularly as data intensive computing plays an ever growing role in the science. This forum aims to foster knowledge transfer and promote common projects for the benefit of our scientific community.

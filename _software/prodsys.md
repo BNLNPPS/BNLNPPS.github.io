@@ -1,5 +1,6 @@
 ---
 title: ATLAS production system
+abbrev: ATLAS Prodsys
 software: prodsys
 common: false
 layout: default

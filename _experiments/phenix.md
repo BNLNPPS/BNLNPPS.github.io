@@ -1,11 +1,14 @@
 ---
 title: PHENIX at RHIC (BNL)
+abbrev: PHENIX
 experiment: phenix
-ref: https://www.phenix.bnl.gov
-software: fun4all
+software: fun4all rootframework
 teams: simulation datapreservation
 layout: default
 ---
 
 {% include experimentspecs.html %}
 
+### References
+
+- [PHENIX website](https://www.phenix.bnl.gov)

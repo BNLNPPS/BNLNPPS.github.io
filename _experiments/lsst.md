@@ -1,10 +1,14 @@
 ---
 title: Large Synoptic Survey Telescope (LSST)
+abbrev: LSST
 experiment: lsst
-ref: https://www.lsst.org
 teams: wfm
 software: panda
 layout: default
 ---
 
 {% include experimentspecs.html %}
+
+### References
+
+- [LSST website](https://www.lsst.org)

@@ -6,3 +6,7 @@ layout: default
 ---
 
 {% include softwarespecs.html %}
+
+### References
+
+- [PanDA pilot repository](https://github.com/PanDAWMS/pilot2)

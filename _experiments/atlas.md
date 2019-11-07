@@ -1,10 +1,15 @@
 ---
 title: ATLAS at the LHC (CERN)
+abbrev: ATLAS
 experiment: atlas
-ref: https://atlas.cern/
 teams: ddm wfm swsupport core collabtools simulation userinterface hpc databases datapreservation
-software: panda pandamon lxr harvester idds rucio eventservice athena rootframework acts
+software: panda pandamon prodsys lxr harvester idds rucio eventservice athena rootframework acts data-carousel
 layout: default
 ---
 
 {% include experimentspecs.html %}
+
+### References
+
+- [ATLAS website](https://atlas.cern/)
+

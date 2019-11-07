@@ -1,7 +1,7 @@
 ---
 title: Maxim Potekhin
 name: potekhin
-experiments: phenix eic 
+experiments: phenix eic dune
 teams: collabtools simulation datapreservation
 software: 
 tags: member
