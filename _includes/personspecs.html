@@ -17,13 +17,13 @@
     <br>NPPS collaborator
   {% endif %}
   
-  {% if page.orcid != "" %}
+  {% if page.orcid.size > 0 %}
     <br>Orcid ID: &nbsp; <a href="http://orcid.org/{{page.orcid}}">{{page.orcid}}</a>
   {% endif %}
 </p>
 
 <p>
-<b>Experiments:</b>
+<b>Experiments and projects:</b>
 
 {% for experiment in site.experiments %}
   {% if page.experiments contains experiment.experiment %}

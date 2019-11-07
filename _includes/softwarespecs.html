@@ -1,6 +1,17 @@
 
 <h1> {{ page.title }} </h1>
-<br>
+
+{% if page.abbrev.size > 0 %}
+<h3> {{ page.abbrev }} in NPPS </h3>
+{% else %}
+<h3> {{ page.title }} in NPPS </h3>
+{% endif %}
+
+<p>
+{% if page.ref.size > 0 %}
+    <a href="{{page.ref}}">Website</a>
+{% endif %}
+</p>
 
 <p>
 <b>Participants:</b>
@@ -13,7 +24,7 @@
 </p>
 
 <p>
-<b>Experiments:</b>
+<b>Experiments and projects:</b>
 
 {% for experiment in site.experiments %}
   {% if experiment.software contains page.software %}

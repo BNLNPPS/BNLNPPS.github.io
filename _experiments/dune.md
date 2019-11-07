@@ -1,11 +1,14 @@
 ---
 title: DUNE Long Baseline Neutrino Facility (FNAL &amp; Sanford)
+abbrev: DUNE
 experiment: dune
-ref: https://www.dunescience.org/
 teams: ddm wfm databases reconstruction core swsupport hpc
-software: dunetpc
+software: dunetpc wirecell
 layout: default
 ---
 
 {% include experimentspecs.html %}
 
+### References
+- [DUNE website](https://www.dunescience.org/)
+- [DUNE document database](http://docs.dunescience.org/)

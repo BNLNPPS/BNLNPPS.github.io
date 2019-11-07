@@ -1,9 +1,9 @@
 ---
 title: Johannes Elmsheuser
 name: elmsheuser
-experiments: atlas
+experiments: atlas google-atlas
 teams: wfm ddm analysis reconstruction userinterface
-software: panda harvester prodsys 
+software: panda harvester prodsys data-carousel
 tags: member
 layout: default
 ---

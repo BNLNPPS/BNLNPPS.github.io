@@ -1,7 +1,7 @@
 ---
 title: Belle II at SuperKEKB (KEK)
+abbrev: Belle II
 experiment: belle2
-ref: https://www.belle2.org
 teams: databases ddm
 software: conddb rucio
 layout: default
@@ -9,3 +9,6 @@ layout: default
 
 {% include experimentspecs.html %}
 
+### References
+
+- [Belle II website](https://www.belle2.org)

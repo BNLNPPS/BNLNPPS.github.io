@@ -1,7 +1,7 @@
 ---
 title: Sergey Padolski
 name: padolski
-experiments: atlas
+experiments: atlas belle2
 teams: wfm ddm userinterface collabtools
 software: pandamon
 tags: member

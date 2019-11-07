@@ -1,11 +1,15 @@
 ---
 title: STAR at RHIC (BNL)
+abbrev: STAR
 experiment: star
-ref: https://www.star.bnl.gov
 teams: simulation reconstruction databases
 software: rootframework
 layout: default
 ---
 
 {% include experimentspecs.html %}
+
+### References
+
+- [STAR website](https://www.star.bnl.gov)
 

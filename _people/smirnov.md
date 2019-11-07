@@ -9,3 +9,7 @@ layout: default
 ---
 
 {% include personspecs.html %}
+
+### References
+
+- [GitHub repository](https://github.com/plexoos)

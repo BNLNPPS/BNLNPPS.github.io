@@ -12,7 +12,7 @@
         <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav">
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu">Experiments &amp; Projects<span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu">Experiments and Projects<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="experiment_menu">
                  {% for experiment in site.experiments %}
                    <li><a href="{{ experiment.url }}">{{ experiment.title }}</a></li>
@@ -21,7 +21,7 @@
             </li>
             
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu">Technical Teams<span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu">Tech Teams<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="activities_menu">
                   {% for techteam in site.techteams %}
                     <li><a href="{{ techteam.url }}">{{ techteam.title }}</a></li>
