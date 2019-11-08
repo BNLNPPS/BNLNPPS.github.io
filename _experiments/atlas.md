@@ -2,7 +2,7 @@
 title: ATLAS at the LHC (CERN)
 abbrev: ATLAS
 experiment: atlas
-teams: ddm wfm swsupport core collabtools simulation userinterface hpc databases datapreservation
+teams: ddm wfm swsupport core collabtools simulation userinterface hpc databases datapreservation eventdata
 software: panda pandamon prodsys lxr harvester idds rucio eventservice athena rootframework acts data-carousel
 layout: default
 ---

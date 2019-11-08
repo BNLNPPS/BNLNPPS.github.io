@@ -13,3 +13,4 @@ layout: default
 ### References
 
 - [GitHub repository](https://github.com/plexoos)
+- [Talks, documents](https://plexoos.github.io/pub-docs/)
