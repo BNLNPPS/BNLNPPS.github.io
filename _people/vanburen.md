@@ -2,7 +2,7 @@
 title: Gene Van Buren
 name: vanburen
 experiments: star
-teams: simulation reconstruction
+teams: simulation reconstruction eventdata
 tags: member leader
 layout: default
 ---

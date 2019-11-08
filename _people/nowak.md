@@ -2,7 +2,7 @@
 title: Marcin Nowak
 name: nowak
 experiments: atlas
-teams: core
+teams: core eventdata
 software: rootframework athena
 tags: member
 layout: default

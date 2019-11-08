@@ -6,3 +6,7 @@ layout: default
 ---
 
 {% include softwarespecs.html %}
+
+### References
+
+- [eic-smear repo](https://gitlab.com/eic/eic-smear)
