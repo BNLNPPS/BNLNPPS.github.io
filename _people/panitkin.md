@@ -1,10 +1,10 @@
 ---
 title: Sergey Panitkin
 name: panitkin
-experiments: lqcd
+experiments: atlas
 teams: wfm hpc 
 software: panda
-tags: member
+tags: collaborator
 layout: default
 ---
 

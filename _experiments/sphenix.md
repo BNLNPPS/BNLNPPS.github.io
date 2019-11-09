@@ -13,3 +13,5 @@ layout: default
 
 - [sPHENIX website](https://wiki.bnl.gov/sPHENIX/index.php/SPHENIX)
 - [sPHENIX repository](https://github.com/sPHENIX-Collaboration)
+- [sPHENIX core software](https://github.com/sPHENIX-Collaboration/coresoftware)
+- [doxygen documentation](https://www.phenix.bnl.gov/WWW/sPHENIX/doxygen/html/)

@@ -1,0 +1,49 @@
+<a href="{{ who.url }}" role="button">{{ who.title }}</a>
+
+  {% if who.tags contains 'grouplead' %}
+    &nbsp; &nbsp; NPPS group leader
+  {% endif %}
+
+  {% if who.tags contains 'leader' %}
+    &nbsp; &nbsp; NPPS leadership team member
+  {% endif %}
+
+  {% if who.tags contains 'member' %}
+    &nbsp; &nbsp; NPPS group member
+  {% endif %}
+
+  {% if who.tags contains 'collaborator' %}
+    &nbsp; &nbsp; NPPS collaborator
+  {% endif %}
+  
+<ul>
+<li>Experiments and projects:</li>
+<ul>
+{% for experiment in site.experiments %}
+  {% if who.experiments contains experiment.experiment %}
+    <li>  <a href="{{ experiment.url }}">{{ experiment.title}}</a>
+  {% endif %}
+{% endfor %}
+</ul>
+
+<li>Technical teams:</li>
+
+<ul>
+{% for team in site.techteams %}
+  {% if who.teams contains team.team %}
+    <li> &nbsp; &nbsp;  <a href="{{ team.url }}">{{ team.title}}</a>
+  {% endif %}
+{% endfor %}
+</ul>
+
+<li>Software:</li>
+
+<ul>
+{% for software in site.software %}
+  {% if who.software contains software.software %}
+    <li> &nbsp; &nbsp;  <a href="{{ software.url }}">{{ software.title}}</a>
+  {% endif %}
+{% endfor %}
+</ul>
+
+</ul>

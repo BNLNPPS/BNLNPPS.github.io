@@ -26,6 +26,8 @@
                   {% for techteam in site.techteams %}
                     <li><a href="{{ techteam.url }}">{{ techteam.title }}</a></li>
                   {% endfor %}
+                  <li class="divider"></li>
+                  <li><a href="/who.html">Who we are</a></li>
                </ul>
             </li>
             
@@ -60,6 +62,7 @@
              <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu">Resources<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/who.html">People</a></li>
                   <li><a href="/documents.html">Documents &amp; Presentations</a></li>
                   <li><a href="/support.html">Support and operations</a></li>
                   <li><a href="https://github.com/BNLNPPS" target="_blank">BNLNPPS in GitHub</a></li>
