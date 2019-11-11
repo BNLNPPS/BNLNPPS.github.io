@@ -46,10 +46,10 @@
               <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu">Events<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="communication_menu">
                   <li><a href="/events-calendar.html">NPPS events calendar</a></li>
-                  <li><a href="https://indico.bnl.gov/category/255/" target="_blank">Meeting agendas</a></li>
-                  <li><a href="https://docs.google.com/document/d/1YfTyXPeXNQU4XUB28bvHJolgyBIJ2bfrd0u9Gd3WD70/edit?usp=sharing" target="_blank">Meeting notes</a></li>
+                  <li><a href="https://indico.bnl.gov/category/255/" target="_blank">NPPS meeting agendas</a></li>
+                  <li><a href="https://docs.google.com/document/d/1YfTyXPeXNQU4XUB28bvHJolgyBIJ2bfrd0u9Gd3WD70/edit?usp=sharing" target="_blank">NPPS meeting notes</a></li>
     <li><a href="/announcements.html">NPPS news </a></li>
-    <li><a href="/seminars.html">NPPS seminar series</a></li>
+    <li><a href="/seminars.html">BNL Physics S&C seminar series</a></li>
     <li><a href="/eic-roundtable.html">EIC software round table</a></li>
                   <li class="divider"></li>
     <li><a href="https://hepsoftwarefoundation.org/activities/software-forum.html" target="_blank">HSF software forum</a></li>
