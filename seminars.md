@@ -1,8 +1,10 @@
 ---
-title: NPPS seminar series
+title: BNL Physics Software and Computing Seminar Series
 layout: default
 ---
 
-# NPPS seminar series
+# BNL Physics Software and Computing Seminar Series
 
-We plan to initiate a series of software and computing seminars on topics within or relevant to nuclear and particle physics, in conjunction with SDCC.
+The [Nuclear and Particle Physics Software (NPPS) Group](http://npps.bnl.gov/) and [RHIC ATLAS Computing Facility (RACF)](https://www.racf.bnl.gov/) in the BNL Physics Department jointly organize a seminar series on software and computing topics of interest to the HEP and NP communities.
+
+[Seminar agendas](https://indico.bnl.gov/category/264/)
