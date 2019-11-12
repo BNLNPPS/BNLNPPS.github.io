@@ -3,7 +3,7 @@ title: STAR at RHIC (BNL)
 abbrev: STAR
 experiment: star
 teams: simulation reconstruction databases eventdata
-software: rootframework
+software: rootframework scikit-hep
 layout: default
 ---
 

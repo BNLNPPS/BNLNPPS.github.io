@@ -3,7 +3,7 @@ title: Belle II at SuperKEKB (KEK)
 abbrev: Belle II
 experiment: belle2
 teams: databases ddm
-software: conddb rucio
+software: conddb rucio scikit-hep
 layout: default
 ---
 
