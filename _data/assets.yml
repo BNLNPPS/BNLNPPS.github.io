@@ -392,7 +392,7 @@
 
 - name: https://indico.bnl.gov/event/7073/
   title: The Rucio Data Management System
-  author: Cedric Serfon, BNL
+  author: serfon
   venue: BNL Physics S&C Seminar Series
   type: slides
   format: link
