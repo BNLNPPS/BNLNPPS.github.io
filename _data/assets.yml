@@ -61,7 +61,7 @@
   title: ATLAS software infrastructure
   author: undrus
   venue: NPPS talk
-  experiment: star
+  experiment: atlas
   team: swsupport
 
 - name: /assets/slides/2019-07-24-elmsheuser-AMSGR3.pdf
@@ -85,7 +85,7 @@
   experiment: eic
   
 - name: https://plexoos.github.io/pub-docs/npps-intro-activities/#/
-  title: Summary of select activities
+  title: Summary of select activities - Dmitri Smirnov
   author: smirnov
   venue: NPPS talk
   type: slides
@@ -110,7 +110,7 @@
   venue: CHEP 2019
   type: slides
   format: link
-  date: 2019-11-17
+  date: 2019-11-04
   experiment: atlas
   team: wfm ddm
   software: idds
@@ -125,5 +125,187 @@
   experiment: atlas belle2
   team: ddm
   software: rucio
+
+- name: https://indico.cern.ch/event/773049/contributions/3473312/
+  title: Enhancements in Functionality of the Interactive Visual Explorer for ATLAS Computing Metadata
+  author: padolski klimentov
+  venue: CHEP 2019
+  type: slides
+  format: link
+  date: 2019-11-04
+  experiment: atlas
+  team: userinterface
+  software: pandamon
+
+- name: https://indico.cern.ch/event/773049/contributions/3473388/
+  title: Implementation of ATLAS Distributed Computing monitoring dashboards using InfluxDB and Grafana
+  author: elmsheuser
+  venue: CHEP 2019
+  type: slides
+  format: link
+  date: 2019-11-04
+  experiment: atlas
+  team: userinterface
+
+- name: https://indico.cern.ch/event/773049/contributions/3476057/
+  title: Evolution of the ATLAS analysis model for Run-3 and prospects for HL-LHC
+  author: elmsheuser
+  venue: CHEP 2019
+  type: slides
+  format: link
+  date: 2019-11-04
+  experiment: atlas
+  team: analysis ddm wfm eventdata
+
+- name: https://indico.cern.ch/event/773049/contributions/3474416/
+  title: Evaluating Rucio outside ATLAS - Common experiences from Belle II, CMS, DUNE, SKA, and LIGO
+  author: laycock
+  venue: CHEP 2019
+  type: slides
+  format: link
+  date: 2019-11-04
+  experiment: atlas belle2 dune
+  team: ddm
+  software: rucio
+
+- name: https://indico.cern.ch/event/773049/contributions/3581347/
+  title: Track 2 Highlights – Offline Computing
+  author: laycock
+  venue: CHEP 2019
+  type: slides
+  format: link
+  date: 2019-11-04
+
+- name: https://indico.cern.ch/event/773049/contributions/3474414/
+  title: Distributed data management on Belle II
+  author: padolski laycock mashinistov
+  venue: CHEP 2019
+  type: slides
+  format: link
+  date: 2019-11-04
+  experiment: belle2
+  team: ddm
+  software: rucio dirac
+
+- name: https://indico.cern.ch/event/773049/contributions/3474809/
+  title: Large scale fine grain simulation workflows ("Jumbo Jobs") on HPC's by the ATLAS experiment
+  author: maeno nilsson
+  venue: CHEP 2019
+  type: slides
+  format: link
+  date: 2019-11-04
+  experiment: atlas
+  team: wfm hpc
+  software: panda pandapilot
+
+- name: https://indico.cern.ch/event/773049/contributions/3473392/
+  title: Managing the ATLAS Grid through Harvester
+  author: maeno
+  venue: CHEP 2019
+  type: slides
+  format: link
+  date: 2019-11-04
+  experiment: atlas
+  team: wfm hpc
+  software: panda harvester
+
+- name: https://indico.cern.ch/event/773049/contributions/3473808/
+  title: Using Kubernetes as an ATLAS computing site
+  author: maeno
+  venue: CHEP 2019
+  type: slides
+  format: link
+  date: 2019-11-04
+  experiment: atlas
+  team: wfm
+  software: panda harvester
+
+- name: https://indico.cern.ch/event/773049/contributions/3474790/
+  title: Experience supporting Belle II CDB server Infrastructure for Phase 3
+  author: mashinistov potekhin
+  venue: CHEP 2019
+  type: slides
+  format: link
+  date: 2019-11-04
+  experiment: belle2
+  team: databases
+  software: conddb
+
+- name: https://indico.cern.ch/event/773049/contributions/3473371/
+  title: Harnessing the power of supercomputers using the PanDA Pilot 2 in the ATLAS Experiment
+  author: nilsson
+  venue: CHEP 2019
+  type: slides
+  format: link
+  date: 2019-11-04
+  experiment: atlas
+  team: wfm hpc
+  software: panda pandapilot
+
+- name: https://indico.cern.ch/event/773049/contributions/3473816/
+  title: Deployment of containers on the diverse ATLAS infrastructure
+  author: nilsson
+  venue: CHEP 2019
+  type: slides
+  format: link
+  date: 2019-11-04
+  experiment: atlas
+  team: hpc wfm swsupport
+  software: panda pandapilot
+
+- name: https://indico.cern.ch/event/773049/contributions/3474774/
+  title: ATLAS Event Store and I/O developments in support for Production and Analysis in Run 3
+  author: nowak
+  venue: CHEP 2019
+  type: slides
+  format: link
+  date: 2019-11-04
+  experiment: atlas
+  team: core eventdata analysis
+  software: athena
+
+- name: https://indico.cern.ch/event/773049/contributions/3474358/
+  title: Evolution of the Data Quality Monitoring and Prompt Processing System in the protoDUNE-SP experiment
+  author: potekhin
+  venue: CHEP 2019
+  type: slides
+  format: link
+  date: 2019-11-04
+  experiment: dune
+  team: userinterface wfm reconstruction
+  software: dunedqm
+
+- name: https://indico.cern.ch/event/773049/contributions/3476182/
+  title: The Scikit-HEP project - overview and prospects
+  author: smirnov
+  venue: CHEP 2019
+  type: slides
+  format: link
+  date: 2019-11-04
+  experiment: star
+  team: analysis
+  software: scikit-hep
+
+- name: https://indico.cern.ch/event/773049/contributions/3474789/
+  title: Dealing with High Background Rates in Simulations of the STAR Heavy Flavor Tracker
+  author: vanburen
+  venue: CHEP 2019
+  type: slides
+  format: link
+  date: 2019-11-04
+  experiment: star
+  team: simulation
+
+- name: https://indico.cern.ch/event/773049/contributions/3476150/
+  title: Extreme compression for Large Scale Data store
+  author: vanburen
+  venue: CHEP 2019
+  type: slides
+  format: link
+  date: 2019-11-04
+  experiment: star
+  team: eventdata
+
+
 
 

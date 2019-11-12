@@ -3,7 +3,7 @@ title: Dmitri Smirnov
 name: smirnov
 experiments: star
 teams: reconstruction swsupport
-software: 
+software: scikit-hep
 tags: member
 layout: default
 ---
