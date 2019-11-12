@@ -53,6 +53,11 @@ layout: default
       {% endif %}
     {% endfor %}
   {% endfor %}
+
+  {% if item.venue.size > 0 %}
+    {{ item.venue }},
+  {% endif %}
+
     {{ itemdate | date: "%b %Y" }}
     </li>
   {% endif %}
