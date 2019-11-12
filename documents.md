@@ -43,13 +43,17 @@ layout: default
     {% endif %}
 
     <li><a href="{{item.name}}" target="_blank">{{item.title}}</a> 
-    
+    <br>
+  {% assign authors = item.author | split: " " %}
+  {% for author in authors %}
     <!-- horrible, but liquid has no named element arrays or dicts -->
     {% for person in site.data.people %}
-      {% if person.name == item.author %}
-        <br> <a href="/people/{{person.name}}">{{ person.full }}</a>, {{ itemdate | date: "%b %Y" }}
+      {% if person.name == author %}
+        <a href="/people/{{person.name}}">{{ person.full }}</a>, 
       {% endif %}
     {% endfor %}
+  {% endfor %}
+    {{ itemdate | date: "%b %Y" }}
     </li>
   {% endif %}
 {% endfor %}
