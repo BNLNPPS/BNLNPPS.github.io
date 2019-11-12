@@ -1,44 +1,52 @@
 - name: /assets/slides/2019-05-17-laycock-BelleIISoftware.pdf
   title: Belle II software overview
   author: laycock
+  venue: NPPS talk
   experiment: belle2
 
 - name: /assets/slides/2019-05-24-nilsson_PilotOverview.pdf
-  title: PanDA pilot overview (NPPS intro talk)
+  title: PanDA pilot overview
   author: nilsson
+  venue: NPPS talk
   experiment: atlas
   software: panda pandapilot
   team: wfm
   
 - name: /assets/slides/2019-05-24-potekhin-protodune-dqm.pdf
-  title: Data quality monitoring for ProtoDUNE (NPPS intro talk)
+  title: Data quality monitoring for ProtoDUNE
   author: potekhin
+  venue: NPPS talk
   experiment: dune
 
 - name: /assets/slides/2019-06-05-arkhipkin-star-databases.pdf
-  title: STAR databases (NPPS intro talk)
+  title: STAR databases
   author: arkhipkin
+  venue: NPPS talk
   experiment: star
   team: databases
 
 - name: /assets/slides/2019-06-05-viren-dune4npps.pdf
   title: DUNE software overview
   author: viren
+  venue: NPPS talk
   experiment: dune
 
 - name: /assets/slides/2019-06-12-jaikarProduction.pdf
-  title: PHENIX and STAR production (NPPS intro talk)
+  title: PHENIX and STAR production
   author: jaikar
+  venue: NPPS talk
   experiment: phenix star
 
 - name: /assets/slides/2019-06-12-klimentov-ATLAS-SC-BNL.pdf
   title: ATLAS software at BNL
   author: klimentov
+  venue: NPPS talk
   experiment: atlas
 
 - name: /assets/slides/2019-06-19-maeno-PanDA.pdf
-  title: The PanDA workload management system (NPPS intro talk)
+  title: The PanDA workload management system
   author: maeno
+  venue: NPPS talk
   experiment: atlas
   software: panda
   team: wfm
@@ -46,37 +54,76 @@
 - name: /assets/slides/2019-07-03-pinkenburg-sphenix.pdf
   title: sPHENIX software overview
   author: pinkenburg
+  venue: NPPS talk
   experiment: sphenix
 
 - name: /assets/slides/2019-07-03-undrus_atlas-sw-infra.pdf
-  title: ATLAS software infrastructure (NPPS intro talk)
+  title: ATLAS software infrastructure
   author: undrus
+  venue: NPPS talk
   experiment: star
   team: swsupport
 
 - name: /assets/slides/2019-07-24-elmsheuser-AMSGR3.pdf
-  title: The ATLAS Run-3 analysis model (NPPS intro talk)
+  title: The ATLAS Run-3 analysis model
   author: elmsheuser
+  venue: NPPS talk
   experiment: atlas
 
 - name: https://indico.bnl.gov/event/6284/timetable/?view=standard
-  title: From Raw Data to Physics Results, Physics Dept Summer Lecture Series 2019
+  title: From Raw Data to Physics Results
+  author: laycock
+  venue: BNL Physics Dept Summer Lecture Series 2019
   type: slides
   format: link
   date: 2019-07-20
-  author: laycock
 
 - name: /assets/slides/2019-08-23-kiselev-eic-software.pdf
   title: EIC software overview
   author: kiselev
+  venue: NPPS talk
   experiment: eic
   
 - name: https://plexoos.github.io/pub-docs/npps-intro-activities/#/
-  title: Summary of select activities (Intro talk)
+  title: Summary of select activities
+  author: smirnov
+  venue: NPPS talk
   type: slides
   format: link
   date: 2019-09-4
-  author: smirnov
   experiment: star
 
-  
+- name: https://indico.cern.ch/event/810635/contributions/3592925/attachments/1927957/3192315/DataCarousel-HEPiX_Oct2019_Klimentov_Auto-saved.pdf
+  title: The ATLAS Data Carousel Project
+  author: klimentov elmsheuser maeno
+  venue: HEPiX Fall 2019
+  type: slides
+  format: link
+  date: 2019-11-17
+  experiment: atlas
+  team: wfm ddm
+  software: data-carousel
+
+- name: https://indico.cern.ch/event/773049/contributions/3474484/
+  title: Event Streaming Service for ATLAS Event Processing
+  author: wenaus maeno
+  venue: CHEP 2019
+  type: slides
+  format: link
+  date: 2019-11-17
+  experiment: atlas
+  team: wfm ddm
+  software: idds
+
+- name: https://indico.bnl.gov/event/7073/
+  title: The Rucio Data Management System
+  author: Cedric Serfon, BNL
+  venue: BNL Physics S&C Seminar Series
+  type: slides
+  format: link
+  date: 2019-11-20
+  experiment: atlas belle2
+  team: ddm
+  software: rucio
+
+
