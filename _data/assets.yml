@@ -1,3 +1,12 @@
+- name: https://docs.google.com/presentation/d/1FEFmbV961EPfKWQrtYvb72LSVNYGia0t7yD3eS9BiC4/edit?usp=sharing
+  title: ATLAS Computing in the HL-LHC Era
+  author: wenaus
+  venue: SC18
+  type: slides
+  format: link
+  date: 2018-11-14
+  experiment: atlas
+
 - name: https://docs.google.com/presentation/d/1p6uP52hjZzEkr1djSvVTsmRGAC9SQmVsMSRRG93pROY/edit?usp=sharing
   title: Introduction to the PAS Group
   author: wenaus
@@ -6,6 +15,14 @@
   format: link
   date: 2019-01-03
   experiment: atlas dune
+
+- name: https://drive.google.com/open?id=1_X0snzBLwDYxe2AW1eBS7bF4Btt_Bqv_
+  title: BNL HEP future vision - Software and Computing
+  author: wenaus
+  venue: BNL HEP vision review
+  type: slides
+  format: link
+  date: 2019-01-29
 
 - name: /assets/slides/2019-05-17-laycock-BelleIISoftware.pdf
   title: Belle II software overview
@@ -26,6 +43,17 @@
   author: potekhin
   venue: NPPS talk
   experiment: dune
+
+- name: https://docs.google.com/presentation/d/1cskfJHLBb9iMFMirAmLcgNAu571qmbWqGSgufSQ3ZQA/edit?usp=sharing
+  title: Event Service - Looking forward looking back
+  author: wenaus
+  venue: ATLAS Workflow Management Meeting, Lubljana
+  type: slides
+  format: link
+  date: 2019-05-13
+  experiment: atlas
+  team: wfm
+  software: eventservice
 
 - name: https://docs.google.com/presentation/d/1nSlyIFYTigMqvw5srQD4fni3SX7yxLdDhyAJ2zu8E4U/edit?usp=sharing
   title: Imagining a Greenfield ATLAS
