@@ -59,11 +59,15 @@
     <br> &nbsp; &nbsp; <a href="{{item.name}}" target="_blank">{{item.title}}</a>, 
 
     <!-- horrible, but liquid has no named element arrays or dicts -->
-    {% for person in site.data.people %}
+<!--    {% for person in site.data.people %}
       {% if person.name == item.author %}
         &nbsp;  <a href="/people/{{person.name}}">{{ person.full }}</a>, {{ itemdate | date: "%b %Y" }}
       {% endif %}
-    {% endfor %}
+    {% endfor %}  -->
+
+    {% if item.venue.size > 0 %}
+        &nbsp; {{ item.venue }},
+    {% endif %}
 
     &nbsp; {{ date | date: "%b %Y" }}
   {% endif %}

@@ -57,15 +57,27 @@
 
 {% for item in site.data.assets reversed %}
 
-  {% if item.author == page.name %}
+  {% assign useit = 0 %}
+  {% assign authors = item.author | split: " " %}
+  {% for author in authors %}
+      {% if author == page.name %}
+        {% assign useit = 1 %}
+      {% endif %}
+  {% endfor %}
+  {% if useit == 1 %}
+        {% if item.date %}
+            {% assign date = item.date | string_to_date | date: "%Y-%m-%d" %}
+        {% else %}
+            {% assign date = item.name | remove: "/assets/documents/" | string_to_date | date: "%Y-%m-%d" %}
+        {% endif %}
 
-    {% if item.date %}
-        {% assign date = item.date | string_to_date | date: "%Y-%m-%d" %}
-    {% else %}
-        {% assign date = item.name | remove: "/assets/documents/" | string_to_date | date: "%Y-%m-%d" %}
-    {% endif %}
-
-    <br> &nbsp; &nbsp; <a href="{{item.name}}" target="_blank">{{item.title}}</a>, {{ date | date: "%b %Y" }}
+        <br> &nbsp; &nbsp; <a href="{{item.name}}" target="_blank">{{item.title}}</a>, 
+        
+        {% if item.venue.size > 0 %}
+            {{ item.venue }},
+        {% endif %}
+        
+        {{ date | date: "%b %Y" }}
   {% endif %}
 {% endfor %}
 </p>
