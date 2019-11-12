@@ -3,7 +3,7 @@ title: Torre Wenaus
 name: wenaus
 experiments: atlas eic dune lsst hsf google-atlas
 teams: collabtools simulation wfm hpc
-software: panda idds hepsoftware eventservice
+software: panda idds hepsoftware eventservice pandamon
 tags: member leader grouplead
 orcid: 0000-0002-8678-893X
 layout: default
@@ -11,7 +11,7 @@ layout: default
 
 {% include personspecs.html %}
 
-## Activities
+### Activities
 
 - NPPS group leader
 - US ATLAS HL-LHC Computing co-manager
