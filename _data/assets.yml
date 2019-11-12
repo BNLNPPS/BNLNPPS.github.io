@@ -1,3 +1,12 @@
+- name: https://docs.google.com/presentation/d/1p6uP52hjZzEkr1djSvVTsmRGAC9SQmVsMSRRG93pROY/edit?usp=sharing
+  title: Introduction to the PAS Group
+  author: wenaus
+  venue: DUNE visit to BNL
+  type: slides
+  format: link
+  date: 2019-01-03
+  experiment: atlas dune
+
 - name: /assets/slides/2019-05-17-laycock-BelleIISoftware.pdf
   title: Belle II software overview
   author: laycock
@@ -17,6 +26,15 @@
   author: potekhin
   venue: NPPS talk
   experiment: dune
+
+- name: https://docs.google.com/presentation/d/1nSlyIFYTigMqvw5srQD4fni3SX7yxLdDhyAJ2zu8E4U/edit?usp=sharing
+  title: Imagining a Greenfield ATLAS
+  author: wenaus
+  venue: EIC software workshop, Trieste
+  type: slides
+  format: link
+  date: 2019-05-21
+  experiment: atlas eic
 
 - name: /assets/slides/2019-06-05-arkhipkin-star-databases.pdf
   title: STAR databases
@@ -78,6 +96,14 @@
   format: link
   date: 2019-07-20
 
+- name: https://docs.google.com/presentation/d/1v08kbWwBL3y8B5x73XnT4fmVbbOyayzSmunimhGfCMI/edit?usp=sharing
+  title: BNL's NPPS Group
+  author: wenaus
+  venue: MIT visit to BNL
+  type: slides
+  format: link
+  date: 2019-08-15
+
 - name: /assets/slides/2019-08-23-kiselev-eic-software.pdf
   title: EIC software overview
   author: kiselev
@@ -92,6 +118,37 @@
   format: link
   date: 2019-09-4
   experiment: star
+
+- name: https://docs.google.com/presentation/d/1nSlyIFYTigMqvw5srQD4fni3SX7yxLdDhyAJ2zu8E4U/edit?usp=sharing
+  title: PanDA in brief
+  author: wenaus
+  venue: DUNE computing model workshop
+  type: slides
+  format: link
+  date: 2019-09-09
+  experiment: atlas dune
+  team: wfm
+  software: panda
+
+- name: https://indico.cern.ch/event/834880/contributions/3609733/attachments/1932063/3200305/USATLAS-HLLHC-Wenaus.pdf
+  title: HL-LHC Computing R&D in US ATLAS
+  author: wenaus
+  venue: IRIS-HEP HL-LHC Workshop
+  type: slides
+  format: link
+  date: 2019-10-23
+  experiment: atlas
+  team: ddm wfm
+
+- name: https://docs.google.com/presentation/d/10MhgPv4yrZMtEbgbEWvqIyTCA0Lw64iZBUgHN8qhMyI/edit?usp=sharing
+  title: HL-LHC Software R&D at BNL
+  author: wenaus
+  venue: IRIS-HEP HL-LHC Workshop
+  type: slides
+  format: link
+  date: 2019-10-23
+  experiment: atlas
+  team: ddm wfm
 
 - name: https://indico.cern.ch/event/810635/contributions/3592925/attachments/1927957/3192315/DataCarousel-HEPiX_Oct2019_Klimentov_Auto-saved.pdf
   title: The ATLAS Data Carousel Project
@@ -114,17 +171,6 @@
   experiment: atlas
   team: wfm ddm
   software: idds
-
-- name: https://indico.bnl.gov/event/7073/
-  title: The Rucio Data Management System
-  author: Cedric Serfon, BNL
-  venue: BNL Physics S&C Seminar Series
-  type: slides
-  format: link
-  date: 2019-11-20
-  experiment: atlas belle2
-  team: ddm
-  software: rucio
 
 - name: https://indico.cern.ch/event/773049/contributions/3473312/
   title: Enhancements in Functionality of the Interactive Visual Explorer for ATLAS Computing Metadata
@@ -316,3 +362,13 @@
   experiment: atlas
   team: wfm ddm
 
+- name: https://indico.bnl.gov/event/7073/
+  title: The Rucio Data Management System
+  author: Cedric Serfon, BNL
+  venue: BNL Physics S&C Seminar Series
+  type: slides
+  format: link
+  date: 2019-11-20
+  experiment: atlas belle2
+  team: ddm
+  software: rucio
