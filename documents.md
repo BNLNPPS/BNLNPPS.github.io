@@ -5,7 +5,7 @@ layout: default
 
 <!-- add items to _data/assets, and add materials to assets/documents and assets/slides -->
 
-Documents and presentations with NPPS authorship
+Documents and presentations with NPPS co-authorship
 
 ## Documents
 
