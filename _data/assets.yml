@@ -102,6 +102,7 @@
   author: pinkenburg
   venue: NPPS talk
   experiment: sphenix
+  software: fun4all
 
 - name: /assets/slides/2019-07-03-undrus_atlas-sw-infra.pdf
   title: ATLAS software infrastructure
@@ -138,6 +139,7 @@
   author: kiselev
   venue: NPPS talk
   experiment: eic
+  software: eicroot fun4all eic-smear
   
 - name: https://plexoos.github.io/pub-docs/npps-intro-activities/#/
   title: Summary of select activities - Dmitri Smirnov
@@ -158,6 +160,17 @@
   experiment: atlas dune
   team: wfm
   software: panda
+
+- name: https://indico.bnl.gov/event/6964/contributions/32348/attachments/25037/37278/S.Padolski.NPPS_2.pdf
+  title: ATLAS BigPanDA monitoring and Belle II DDM
+  author: padolski
+  venue: NPPS talk
+  type: slides
+  format: link
+  date: 2019-10-11
+  experiment: atlas belle2
+  team: ddm userinterface
+  software: pandamon
 
 - name: https://indico.cern.ch/event/834880/contributions/3609733/attachments/1932063/3200305/USATLAS-HLLHC-Wenaus.pdf
   title: HL-LHC Computing R&D in US ATLAS

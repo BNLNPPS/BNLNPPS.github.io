@@ -4,7 +4,7 @@
 <br>
 
 <p>
-<b>Participants:</b>
+<b>Participants</b>
 
 {% for person in site.people %}
   {% if person.teams contains page.team %}
@@ -14,7 +14,7 @@
 </p>
 
 <p>
-<b>Experiments and projects:</b>
+<b>Experiments and projects</b>
 {% for experiment in site.experiments %}
   {% if experiment.teams contains page.team %}
     <br> &nbsp; &nbsp;  <a href="{{ experiment.url }}">{{ experiment.title}}</a>
@@ -23,7 +23,9 @@
 </p>
 
 <p>
-<b>Materials:</b>
+<b>Materials</b>
+
+<br> &nbsp; &nbsp; Related materials with NPPS authorship:
 
 {% for item in site.data.assets reversed %}
 
