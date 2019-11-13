@@ -44,11 +44,12 @@ Documents and presentations with NPPS authorship
         {% assign itemdate = item.name | remove: "/assets/slides/" | string_to_date | date: "%Y-%m-%d" %}
     {% endif %}
 
-    <li><a href="{{item.name}}" target="_blank">{{item.title}}</a> 
-    <br>
+    <li><a href="{{item.name}}" target="_blank">{{item.title}}</a>, &nbsp;
+
+<!--
+
   {% assign authors = item.author | split: " " %}
   {% for author in authors %}
-    <!-- horrible, but liquid has no named element arrays or dicts -->
     {% for person in site.data.people %}
       {% if person.name == author %}
         <a href="/people/{{person.name}}">{{ person.full }}</a> &nbsp; 
@@ -56,7 +57,7 @@ Documents and presentations with NPPS authorship
     {% endfor %}
   {% endfor %}
 
-  et al, &nbsp; 
+-->
 
   {% if item.venue.size > 0 %}
     {{ item.venue }},
@@ -67,7 +68,3 @@ Documents and presentations with NPPS authorship
   {% endif %}
 {% endfor %}
 </ul>
-
-
-
-
