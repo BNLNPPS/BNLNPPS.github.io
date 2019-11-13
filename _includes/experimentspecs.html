@@ -14,7 +14,7 @@
 </p>
 
 <p>
-<b>Participants:</b> &nbsp;
+<b>Participants</b> &nbsp;
 
 {% for person in site.people %}
     {% if person.experiments contains {{page.experiment}} %}
@@ -24,7 +24,7 @@
 </p>
 
 <p>
-<b>Technical teams:</b> &nbsp;
+<b>Technical teams</b> &nbsp;
 
 {% for team in site.techteams %}
     {% if page.teams contains {{team.team}} %}
@@ -34,7 +34,7 @@
 </p>
 
 <p>
-<b>Software:</b> &nbsp;
+<b>Software</b> &nbsp;
 
 {% for software in site.software %}
     {% if page.software contains {{software.software}} %}
@@ -44,7 +44,9 @@
 </p>
 
 <p>
-<b>Materials:</b>
+<b>Materials</b>
+
+<br> &nbsp; &nbsp; Related materials with NPPS authorship:
 
 {% for item in site.data.assets reversed %}
 

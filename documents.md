@@ -5,6 +5,8 @@ layout: default
 
 <!-- add items to _data/assets, and add materials to assets/documents and assets/slides -->
 
+Documents and presentations with NPPS authorship
+
 ## Documents
 
 <ul>
@@ -49,16 +51,18 @@ layout: default
     <!-- horrible, but liquid has no named element arrays or dicts -->
     {% for person in site.data.people %}
       {% if person.name == author %}
-        <a href="/people/{{person.name}}">{{ person.full }}</a>, 
+        <a href="/people/{{person.name}}">{{ person.full }}</a> &nbsp; 
       {% endif %}
     {% endfor %}
   {% endfor %}
+
+  et al, &nbsp; 
 
   {% if item.venue.size > 0 %}
     {{ item.venue }},
   {% endif %}
 
-    {{ itemdate | date: "%b %Y" }}
+    &nbsp; {{ itemdate | date: "%b %Y" }}
     </li>
   {% endif %}
 {% endfor %}
