@@ -22,7 +22,12 @@ Seminars to date:
     {% endif %}
 
     <br> &nbsp; &nbsp; <a href="{{item.name}}" target="_blank">{{item.title}}</a>,
-    &nbsp; {{ item.author }},
+    &nbsp; 
+    {% if item.authorfull.size > 0 %}
+        {{ item.authorfull }},
+    {% else %}
+        {{ item.author }},
+    {% endif %}
     &nbsp; {{ date | date: "%b %Y" }}
   {% endif %}
 {% endfor %}
