@@ -415,3 +415,27 @@
   experiment: atlas belle2
   team: ddm
   software: rucio
+
+- name: https://docs.google.com/presentation/d/1lbcuDsegdpcUcSYddg_nWq1jPuI0rqRhQQqWAx0lMFY/edit
+  title: iDDS status report
+  author: maeno
+  venue: ATLAS WFMS meeting
+  type: slides
+  format: link
+  date: 2019-11-20
+  experiment: atlas
+  team: wfm
+  software: idds
+
+- name: https://indico.cern.ch/event/863649/contributions/3639419/attachments/1944971/3226793/WFMS_Pegasus_User_Analysis_14.11.2019.pdf
+  title: PanDA/Pegasus integration - a case study
+  author: svirin
+  authorfull: Pavlo Svirin (ATLAS CERN)
+  venue: ATLAS WFMS meeting
+  type: slides
+  format: link
+  date: 2019-11-14
+  experiment: atlas
+  team: wfm
+  software: panda pegasus
+
