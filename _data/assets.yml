@@ -439,3 +439,23 @@
   team: wfm
   software: panda pegasus
 
+- name: https://indico.cern.ch/event/859693/contributions/3620263/attachments/1935380/3207117/c_301019.pdf
+  title: Small tests with uproot, parquet files and avro files
+  author: elmsheuser
+  venue: ATLAS SPOT meeting
+  type: slides
+  format: link
+  date: 2019-10-30
+  experiment: atlas
+  team: eventdata
+
+- name: https://docs.google.com/presentation/d/1cU4wD_PrmJPHn_Q3sME4Brxqk3AwUUXosCTD4Qk5Mqc/edit#slide=id.g6242a790b6_0_0
+  title: Central Container Registry for ATLAS
+  author: maeno
+  venue: NPPS meeting
+  type: slides
+  format: link
+  date: 2019-11-22
+  experiment: atlas
+  team: wfm
+  software: panda
