@@ -23,6 +23,16 @@
 </p>
 
 <p>
+<b>Software</b> &nbsp;
+
+{% for software in site.software %}
+    {% if software.teams contains page.team %}
+        <br> &nbsp; &nbsp; <a href="{{software.url}}">{{ software.title }}</a> &nbsp; &nbsp; 
+    {% endif %}
+{% endfor %}
+</p>
+
+<p>
 <b>Materials</b>
 
 <br> &nbsp; &nbsp; Related materials with NPPS (co)authorship:

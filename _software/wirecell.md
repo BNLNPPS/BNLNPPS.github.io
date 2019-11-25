@@ -1,6 +1,7 @@
 ---
 title: Wire-Cell
 software: wirecell
+teams: simulation reconstruction core
 common: true
 layout: default
 ---

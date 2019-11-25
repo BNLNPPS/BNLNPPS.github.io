@@ -1,6 +1,12 @@
 
 <h1> {{ page.title }} </h1>
 
+<p>
+{% if page.common %}
+  <b>Common software: yes</b>
+{% endif %}
+</p>
+
 {% if page.abbrev.size > 0 %}
 <h3> {{ page.abbrev }} in NPPS </h3>
 {% else %}
@@ -30,6 +36,16 @@
   {% if experiment.software contains page.software %}
     <br> &nbsp; &nbsp;  <a href="{{ experiment.url }}">{{ experiment.title}}</a>
   {% endif %}
+{% endfor %}
+</p>
+
+<p>
+<b>Technical teams</b> &nbsp;
+
+{% for team in site.techteams %}
+    {% if page.teams contains team.team %}
+        <br> &nbsp; &nbsp; <a href="{{team.url}}">{{ team.title }}</a> &nbsp; &nbsp; 
+    {% endif %}
 {% endfor %}
 </p>
 
