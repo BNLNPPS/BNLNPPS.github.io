@@ -110,6 +110,7 @@
   venue: NPPS talk
   experiment: atlas
   team: swsupport
+  software: atlas-ci-nightly
 
 - name: /assets/slides/2019-07-24-elmsheuser-AMSGR3.pdf
   title: The ATLAS Run-3 analysis model

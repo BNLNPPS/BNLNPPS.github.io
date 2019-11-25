@@ -8,7 +8,7 @@
 
 {% for person in site.people %}
   {% if person.teams contains page.team %}
-    <br> &nbsp; &nbsp;  <a href="{{ person.url }}">{{ person.title}}</a>
+    <br> &nbsp; &nbsp;  {% include personline.html %}
   {% endif %}
 {% endfor %}
 </p>

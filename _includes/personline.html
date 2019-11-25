@@ -1,0 +1,13 @@
+<a href="{{ person.url }}">{{ person.title}}</a>
+ 
+  {% if person.tags contains 'member' %}
+    &nbsp; &nbsp; Group member
+  {% endif %}
+
+  {% if person.tags contains 'collaborator' %}
+    &nbsp; &nbsp; Collaborator
+  {% endif %}
+
+  {% if person.tags contains 'leader' %}
+    &nbsp; &nbsp; Leadership team member
+  {% endif %}

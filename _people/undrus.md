@@ -3,7 +3,7 @@ title: Alex Undrus
 name: undrus
 experiments: atlas
 teams: swsupport userinterface
-software: lxr 
+software: lxr atlas-ci-nightly
 tags: member
 layout: default
 ---
