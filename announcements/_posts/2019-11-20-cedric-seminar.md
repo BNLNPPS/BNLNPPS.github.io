@@ -4,6 +4,7 @@ author: Torre Wenaus
 layout: newsletter
 symbol: glyphicon-calendar
 link: /announcements.html
+teams: ddm
 series: bnl-physics-sc-seminar
 until: 2019-12-31
 ---

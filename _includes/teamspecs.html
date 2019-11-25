@@ -64,3 +64,21 @@
   {% endif %}
 {% endfor %}
 </p>
+
+<p>
+<b>Events</b> <br>
+
+{% for post in site.categories.announcements %}
+{% if post.teams contains page.team %}
+
+<br><b><a href="{{ post.url }}">{{ post.title }}</a></b>
+{{ post.date | date_to_string }} 
+
+{{ post.content  }}
+
+
+{% endif %}
+{% endfor %}
+
+</p>
+
