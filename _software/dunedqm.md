@@ -2,7 +2,7 @@
 title: DUNE data quality monitor
 software: dune
 abbrev: DUNE DQM
-common: true
+teams: databases userinterface
 layout: default
 ---
 

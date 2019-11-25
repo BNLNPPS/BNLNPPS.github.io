@@ -1,6 +1,7 @@
 ---
 title: Harvester
 software: harvester
+teams: wfm hpc
 common: true
 layout: default
 ---

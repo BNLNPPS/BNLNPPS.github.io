@@ -1,6 +1,7 @@
 ---
 title: eic-smear
 software: eicsmear
+teams: simulation
 common: true
 layout: default
 ---

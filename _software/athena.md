@@ -1,6 +1,7 @@
 ---
 title: Athena
 software: athena
+teams: core
 common: true
 layout: default
 ---

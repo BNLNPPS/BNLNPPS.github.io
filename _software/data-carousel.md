@@ -1,7 +1,8 @@
 ---
 title: Data Carousel
 software: data-carousel
-common: true
+teams: wfm ddm
+common: false
 layout: default
 ---
 

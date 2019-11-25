@@ -2,6 +2,7 @@
 title: PanDA monitoring system
 abbrev: PanDA monitor
 software: pandamon
+teams: wfm userinterface databases
 common: true
 layout: default
 ---
