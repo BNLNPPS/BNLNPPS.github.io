@@ -12,3 +12,4 @@ layout: default
 ### References
 - [DUNE website](https://www.dunescience.org/)
 - [DUNE document database](http://docs.dunescience.org/)
+- [The Single-Phase ProtoDUNE Technical Design Report](https://arxiv.org/abs/1706.07081)
