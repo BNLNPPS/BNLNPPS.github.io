@@ -375,26 +375,6 @@
   team: analysis
   software: scikit-hep
 
-- name: https://indico.cern.ch/event/773049/contributions/3474789/
-  title: Dealing with High Background Rates in Simulations of the STAR Heavy Flavor Tracker
-  author: vanburen
-  venue: CHEP 2019
-  type: slides
-  format: link
-  date: 2019-11-04
-  experiment: star
-  team: simulation
-
-- name: https://indico.cern.ch/event/773049/contributions/3476150/
-  title: Extreme compression for Large Scale Data store
-  author: vanburen
-  venue: CHEP 2019
-  type: slides
-  format: link
-  date: 2019-11-04
-  experiment: star
-  team: eventdata
-
 - name: https://indico.cern.ch/event/773049/contributions/3474425/
   title: The ATLAS Data Carousel Project
   author: klimentov elmsheuser
