@@ -4,7 +4,8 @@ name: laycock
 experiments: belle2 dune hsf
 teams: databases ddm wfm analysis core collabtools
 software: conddb rucio dirac
-tags: member leader
+tags: member leader appointments
+appointments: DUNE DB Group Co-Convener
 layout: default
 ---
 
