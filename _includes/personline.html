@@ -11,3 +11,7 @@
   {% if person.tags contains 'leader' %}
     &nbsp; &nbsp; Leadership team member
   {% endif %}
+
+  {% if person.tags contains 'appointments' %}
+    &nbsp; &nbsp; {{ person.appointments }}
+  {% endif %}
