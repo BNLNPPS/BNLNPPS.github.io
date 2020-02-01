@@ -7,6 +7,12 @@
 {% endif %}
 </p>
 
+{% if page.synopsis %}
+<p>
+  <b>Synopsis: </b>  {{ page.synopsis }}
+</p>
+{% endif %}
+
 {% if page.abbrev.size > 0 %}
 <h3> {{ page.abbrev }} in NPPS </h3>
 {% else %}
