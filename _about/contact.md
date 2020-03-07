@@ -1,6 +1,8 @@
 ---
 title: Contact us
 layout: default
+abbrev: contact
+weight: 0
 ---
 
 # Contact us

@@ -1,6 +1,8 @@
 ---
 title: NPPS organization
 layout: default
+abbrev: nppsorg
+weight: 10
 ---
 
 # NPPS organization
