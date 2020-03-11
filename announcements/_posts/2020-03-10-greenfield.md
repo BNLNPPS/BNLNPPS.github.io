@@ -1,12 +1,11 @@
 ---
-title: BNL/JLab S&C Round Table on Jupyter, Dec 3 2019
+title: BNL/JLab S&C Round Table on Frameworks for Greenfield Experiments
 author: Torre Wenaus
 layout: newsletter
 symbol: glyphicon-calendar
 link: /announcements.html
-teams: datapreservation
-until: 2020-03-31
+teams: core
+until: 2020-07-31
 ---
 
-BNL/JLab Software and Computing Round Table on Jupyter. 
 For more information on this and other meetings in this series see [here](/bnl-jlab-roundtable.html).
