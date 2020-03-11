@@ -1,5 +1,5 @@
 ---
-title: BNL/JLab S&C Round Table on Frameworks for Greenfield Experiments
+title: BNL/JLab S&C Round Table on Frameworks for Greenfield Experiments, March 10 2020 
 author: Torre Wenaus
 layout: newsletter
 symbol: glyphicon-calendar

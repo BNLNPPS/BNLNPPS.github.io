@@ -1,5 +1,5 @@
 ---
-title: BNL/JLab S&C Round Table on Programming for Future Architectures, March 10 2020
+title: BNL/JLab S&C Round Table on Programming for Future Architectures, Feb 18 2020
 author: Torre Wenaus
 layout: newsletter
 symbol: glyphicon-calendar
