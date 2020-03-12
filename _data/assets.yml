@@ -71,6 +71,13 @@
   experiment: star
   team: databases
 
+- name: /assets/slides/2020-03-11-potekhin-phenix-dap.pdf
+  title: Data and Analysis Preservation tools for PHENIX
+  author: potekhin
+  venue: PHENIX talk
+  experiment: phenix
+  team: datapreservation
+
 - name: /assets/slides/2019-06-05-viren-dune4npps.pdf
   title: DUNE software overview
   author: viren
