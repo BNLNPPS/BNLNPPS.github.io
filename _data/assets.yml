@@ -8,6 +8,15 @@
   date: 2019-03-20
   experiment: atlas eic
 
+- name: https://pos.sissa.it/314/513/
+  title: The protoDUNE-SP experiment and its prompt processing system
+  author: potekhin
+  venue: Proceedings of Science Publication (EPS-HEP2017)
+  type: document
+  format: link
+  date: 2018-03-20
+  experiment: dune
+
 # Slides
 - name: https://docs.google.com/presentation/d/1FEFmbV961EPfKWQrtYvb72LSVNYGia0t7yD3eS9BiC4/edit?usp=sharing
   title: ATLAS Computing in the HL-LHC Era
