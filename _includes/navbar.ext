@@ -58,10 +58,11 @@
                   <li><a href="https://calendar.google.com/calendar/embed?src=e4v33e1a1drbncdle1n03ahpcs%40group.calendar.google.com&ctz=Europe/Amsterdam"  target="_blank">HSF community calendar</a></li>
                 </ul>
             </li>
- 
+
+	    <!-- RESOURCES -->
              <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu">Resources<span class="caret"></span></a>
-                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+              <ul class="dropdown-menu" aria-labelledby="projects_menu">
                   <li><a href="/who.html">People</a></li>
                   <li><a href="/documents.html">Documents &amp; Presentations</a></li>
                   <li><a href="/support.html">Support and operations</a></li>
@@ -70,12 +71,17 @@
             </li>
 
           </ul>
+
+
           <ul class="nav navbar-nav navbar-right">
+	  <!-- ABOUT -->
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu">About<span class="caret"></span></a>
               <ul class="dropdown-menu" aria-labelledby="about_menu">
-                <li><a href="/contact.html">Contact us</a></li>
-                <li><a href="/nppsorg.html">NPPS organization</a><li>
+		 {% assign items = site.about | sort: 'weight' %}
+                 {% for item in items %}
+                   <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+                 {% endfor %}
                 <li><a href="/who.html">Who we are</a></li>
                 <li><a href="/howto-website.html">Website info and howto</a></li>
                 
@@ -83,7 +89,6 @@
                 <li><a href="https://www.bnl.gov/physics/" target="_blank">Physics at BNL</a></li>
                 <li><a href="https://www.sdcc.bnl.gov/" target="_blank">Scientific computing at BNL</a></li>
                 <li><a href="https://hepsoftwarefoundation.org" target="_blank">Community software</a></li>
-
               </ul>
             </li>
           </ul>

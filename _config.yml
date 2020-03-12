@@ -27,3 +27,6 @@ collections:
   people:
     output: true
     permalink: /people/:title.html
+  about:
+    output: true
+    permalink: /about/:title.html

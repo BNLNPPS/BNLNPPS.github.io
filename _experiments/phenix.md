@@ -2,7 +2,7 @@
 title: PHENIX at RHIC (BNL)
 abbrev: PHENIX
 experiment: phenix
-software: fun4all rootframework invenio jekyll
+software: fun4all rootframework invenio jekyll zenodo
 teams: simulation datapreservation
 layout: default
 ---
