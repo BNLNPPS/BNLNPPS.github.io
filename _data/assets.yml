@@ -1,3 +1,14 @@
+# Documents
+- name: https://link.springer.com/article/10.1007/s41781-018-0018-8
+  title: A Roadmap for HEP Software and Computing R&D for the 2020s
+  author: wenaus
+  venue: SpringerLink Publication
+  type: document
+  format: link
+  date: 2019-03-20
+  experiment: atlas eic
+
+# Slides
 - name: https://docs.google.com/presentation/d/1FEFmbV961EPfKWQrtYvb72LSVNYGia0t7yD3eS9BiC4/edit?usp=sharing
   title: ATLAS Computing in the HL-LHC Era
   author: wenaus
@@ -75,7 +86,9 @@
   title: Data and Analysis Preservation tools for PHENIX
   author: potekhin
   venue: PHENIX talk
+  date: 2020-03-11
   experiment: phenix
+  software: jekyll zenodo
   team: datapreservation
 
 - name: /assets/slides/2019-06-05-viren-dune4npps.pdf
