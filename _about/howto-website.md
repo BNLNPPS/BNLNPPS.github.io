@@ -1,12 +1,14 @@
 ---
-title: About the NPPS website
+title: Website info and how-to
 author: Torre Wenaus
 layout: default
+abbrev: howto
+weight: 30
 ---
 
 # {{ page.title }}
 
-*This is a slightly modified version of Michel Jouvin's documentation for the HSF site. See also the [Jekyll for beginners page](/jekyll-beginners.html).*
+*This is a slightly modified version of Michel Jouvin's documentation for the HSF site. See also the [Jekyll for beginners page](/misc/jekyll-beginners.html).*
 
 ## About the NPPS website
 
@@ -19,7 +21,7 @@ It was bootstrapped from the [HSF website](https://hepsoftwarefoundation.org), w
 This website is implemented using [GitHub's Pages](https://pages.github.com/) service which makes it easy to create a website associated with a GitHub account or project. Pages uses [Jekyll](https://help.github.com/articles/using-jekyll-with-pages/), a tool to automatically build a website from source files (which are kept in GitHub). It supports structured sites like blogs in a simple but powerful way. It produces a very fast website as all pages are pre-built as static web pages.
 The site content is written using the easy [Markdown syntax](http://daringfireball.net/projects/markdown/syntax) (which is used by GitHub itself).
 
-A [Jekyll for beginners page](/jekyll-beginners.html) provides some useful hints to make using Jekyll in the NPPS context easier.
+A [Jekyll for beginners page](/misc/jekyll-beginners.html) provides some useful hints to make using Jekyll in the NPPS context easier.
 
 ## How to add and edit information
 
@@ -64,7 +66,7 @@ Add the new item to `_data/assets.yml`. Note the metadata on the items there. If
 It is sometimes handy to use GoogleDoc to produce some contents for the web site. For example, if taking minutes
 during a meeting, it allows several people to contribute to the effort of note taking and other persons who attended the
 meeting to validate/update them. It is then easy to convert a properly formatted GoogleDoc (using standard heading
-levels) to Markdown for inserting it into the website. Look at our [documentation](/jekyll-beginners.html) on how to
+levels) to Markdown for inserting it into the website. Look at our [documentation](/misc/jekyll-beginners.html) on how to
 do it.
 
 ## Technical details
