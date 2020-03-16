@@ -12,24 +12,29 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 collections:
-  misc:
-    output: true
-    permalink: /misc/:title.html
+# Start with items in the navigation bar:
   experiments:
     output: true
     permalink: /experiments/:title.html
-  software:
-    output: true
-    permalink: /software/:title.html
   techteams:
     output: true
     permalink: /techteams/:title.html
-  people:
+  software:
     output: true
-    permalink: /people/:title.html
+    permalink: /software/:title.html
+  events:
+    output: true
+    permalink: /events/:title.html
   resources:
     output: true
     permalink: /resources/:title.html
   about:
     output: true
     permalink: /about/:title.html
+# All other containers:
+  people:
+    output: true
+    permalink: /people/:title.html
+  misc:
+    output: true
+    permalink: /misc/:title.html

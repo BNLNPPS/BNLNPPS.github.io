@@ -3,8 +3,6 @@ title: Documents
 layout: default
 ---
 
-<!-- add items to _data/assets, and add materials to assets/documents and assets/slides -->
-
 Documents and presentations with NPPS (co)authorship
 
 ## Documents
@@ -22,7 +20,7 @@ Documents and presentations with NPPS (co)authorship
     
     <!-- horrible, but liquid has no named element arrays or dicts -->
     {% for person in site.data.people %}
-    <!-- mxp: I disabled the author field for now since there are multiple and will design later -->
+    <!-- mxp: disabled the author field since there are multiple and I will need to revisit later -->
       {% if person.name == item.author and false %}
         <a href="/people/{{person.name}}">{{ person.full }}</a>, {{ item.date | date: "%b %Y" }}
       {% endif %}

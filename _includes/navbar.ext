@@ -42,14 +42,15 @@
                 </ul>
             </li>
             
+	    <!-- EVENTS -->
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu">Events<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="communication_menu">
-                  <li><a href="/events-calendar.html">NPPS events calendar</a></li>
+                  <li><a href="/events/events-calendar.html">NPPS events calendar</a></li>
                   <li><a href="https://indico.bnl.gov/category/255/" target="_blank">NPPS meeting agendas</a></li>
                   <li><a href="https://docs.google.com/document/d/1YfTyXPeXNQU4XUB28bvHJolgyBIJ2bfrd0u9Gd3WD70/edit?usp=sharing" target="_blank">NPPS meeting notes</a></li>
     <li><a href="/announcements.html">NPPS news </a></li>
-    <li><a href="/seminars.html">BNL Physics S&C seminar series</a></li>
+    <li><a href="/events/seminars.html">BNL Physics S&C seminar series</a></li>
     <li><a href="/bnl-jlab-roundtable.html">BNL/JLab S&C round table</a></li>
                   <li class="divider"></li>
     <li><a href="https://hepsoftwarefoundation.org/activities/software-forum.html" target="_blank">HSF software forum</a></li>
@@ -63,7 +64,7 @@
              <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu">Resources<span class="caret"></span></a>
               <ul class="dropdown-menu" aria-labelledby="projects_menu">
-                  <li><a href="/who.html">People</a></li>
+                  <li><a href="/about/who.html">People</a></li>
                   <li><a href="/resources/documents.html">Documents &amp; Presentations</a></li>
                   <li><a href="/resources/support.html">Support and operations</a></li>
                   <li><a href="https://github.com/BNLNPPS" target="_blank">BNLNPPS in GitHub</a></li>
