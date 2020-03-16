@@ -82,8 +82,6 @@
                  {% for item in items %}
                    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
                  {% endfor %}
-                <li><a href="/who.html">Who we are</a></li>
-                <li><a href="/about/who.html">Who we are???</a></li>
                 <li><a href="/howto-website.html">Website info and howto</a></li>
                 
                 <li class="divider"></li>
