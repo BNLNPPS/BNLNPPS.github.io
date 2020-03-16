@@ -1,7 +1,9 @@
 ---
-title: About the NPPS website
+title: Website info and how-to
 author: Torre Wenaus
 layout: default
+abbrev: howto
+weight: 30
 ---
 
 # {{ page.title }}
