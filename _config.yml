@@ -12,9 +12,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 collections:
-  activities:
+  misc:
     output: true
-    permalink: /activities/:title.html
+    permalink: /misc/:title.html
   experiments:
     output: true
     permalink: /experiments/:title.html
