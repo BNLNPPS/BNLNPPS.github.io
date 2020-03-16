@@ -3,72 +3,52 @@ title: Documents
 layout: default
 ---
 
-Documents and presentations with NPPS (co)authorship
+A collection of documents and presentations with NPPS (co) authorship.
 
-## Documents
+# Documents
 
 <ul>
-{% for item in site.data.assets reversed %}
-  {% if item.type == 'document' or item.name contains "/assets/documents" %}
-    {% if item.date %}
-        {% assign itemdate = item.date | string_to_date | date: "%Y-%m-%d" %}
-    {% else %}
-        {% assign itemdate = item.name | remove: "/assets/documents/" | string_to_date | date: "%Y-%m-%d" %}
-    {% endif %}
-
-    <li><a href="{{item.name}}" target="_blank">{{item.title}}</a>, &nbsp;
-    
-    <!-- horrible, but liquid has no named element arrays or dicts -->
-    {% for person in site.data.people %}
-    <!-- mxp: disabled the author field since there are multiple and I will need to revisit later -->
-      {% if person.name == item.author and false %}
-        <a href="/people/{{person.name}}">{{ person.full }}</a>, {{ item.date | date: "%b %Y" }}
-      {% endif %}
-    {% endfor %}
-  {% if item.venue.size > 0 %}
-    {{ item.venue }},
-  {% endif %}
-
-    &nbsp; {{ itemdate | date: "%b %Y" }}
-    
-    </li>
-  {% endif %}
+{% assign all_documents=site.data.assets | where: "type", "document" %}
+{% for item in all_documents %}
+{% if item.date %}
+{% assign itemdate = item.date | string_to_date | date: "%Y-%m-%d" %}
+{% else %}
+{% assign itemdate = item.name | remove: "/assets/documents/" | string_to_date | date: "%Y-%m-%d" %}
+{% endif %}
+<li><a href="{{item.name}}" target="_blank">{{item.title}}</a>, &nbsp;
+{% if item.venue.size > 0 %}
+{{ item.venue }},
+{% endif %}
+&nbsp;
+{{ itemdate | date: "%b %Y" }}
+</li>
 {% endfor %}
 </ul>
 
-## Presentations
 
+{% assign all_slides=site.data.assets | reverse | where: "type", "slides" %}
+{% assign chep_slides=all_slides | where: "category", "chep" %}
+{% assign npps_slides=all_slides | where: "category", "npps" %}
+{% assign misc_slides=all_slides | where: "category", "misc" %}
+
+# Presentations
+### CHEP (Computing in High Energy and Nuclear Physics Conference series)
 <ul>
-{% for item in site.data.assets reversed %}
-  {% if item.type == 'slides' or item.name contains "/assets/slides" %}
+{% for item in chep_slides %}
+{% include slide_line.md item=item %}
+{% endfor %}
+</ul>
 
-    {% if item.date %}
-        {% assign itemdate = item.date | string_to_date | date: "%Y-%m-%d" %}
-    {% else %}
-        {% assign itemdate = item.name | remove: "/assets/slides/" | string_to_date | date: "%Y-%m-%d" %}
-    {% endif %}
+### Internal NPPS presentations
+<ul>
+{% for item in npps_slides %}
+{% include slide_line.md item=item %}
+{% endfor %}
+</ul>
 
-    <li><a href="{{item.name}}" target="_blank">{{item.title}}</a>, &nbsp;
-
-<!--
-
-  {% assign authors = item.author | split: " " %}
-  {% for author in authors %}
-    {% for person in site.data.people %}
-      {% if person.name == author %}
-        <a href="/people/{{person.name}}">{{ person.full }}</a> &nbsp; 
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-
--->
-
-  {% if item.venue.size > 0 %}
-    {{ item.venue }},
-  {% endif %}
-
-    &nbsp; {{ itemdate | date: "%b %Y" }}
-    </li>
-  {% endif %}
+### Misc presentations
+<ul>
+{% for item in misc_slides %}
+{% include slide_line.md item=item %}
 {% endfor %}
 </ul>
