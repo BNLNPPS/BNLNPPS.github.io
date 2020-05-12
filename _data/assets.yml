@@ -23,6 +23,7 @@
   author: wenaus
   venue: SC18
   type: slides
+  category: misc
   format: link
   date: 2018-11-14
   experiment: atlas
@@ -32,6 +33,7 @@
   author: wenaus
   venue: DUNE visit to BNL
   type: slides
+  category: misc
   format: link
   date: 2019-01-03
   experiment: atlas dune
@@ -41,6 +43,7 @@
   author: wenaus
   venue: BNL HEP vision review
   type: slides
+  category: misc
   format: link
   date: 2019-01-29
 
@@ -48,12 +51,16 @@
   title: Belle II software overview
   author: laycock
   venue: NPPS talk
+  type: slides
+  category: npps
   experiment: belle2
 
 - name: /assets/slides/2019-05-24-nilsson_PilotOverview.pdf
   title: PanDA pilot overview
   author: nilsson
   venue: NPPS talk
+  type: slides
+  category: npps
   experiment: atlas
   software: panda pandapilot
   team: wfm
@@ -62,6 +69,8 @@
   title: Data quality monitoring for ProtoDUNE
   author: potekhin
   venue: NPPS talk
+  type: slides
+  category: npps
   experiment: dune
 
 - name: https://docs.google.com/presentation/d/1cskfJHLBb9iMFMirAmLcgNAu571qmbWqGSgufSQ3ZQA/edit?usp=sharing
@@ -69,6 +78,7 @@
   author: wenaus
   venue: ATLAS Workflow Management Meeting, Lubljana
   type: slides
+  category: misc
   format: link
   date: 2019-05-13
   experiment: atlas
@@ -80,6 +90,7 @@
   author: wenaus
   venue: EIC software workshop, Trieste
   type: slides
+  category: misc
   format: link
   date: 2019-05-21
   experiment: atlas eic
@@ -88,6 +99,8 @@
   title: STAR databases
   author: arkhipkin
   venue: NPPS talk
+  type: slides
+  category: npps
   experiment: star
   team: databases
 
@@ -95,6 +108,8 @@
   title: Data and Analysis Preservation tools for PHENIX
   author: potekhin
   venue: PHENIX talk
+  type: slides
+  category: misc
   date: 2020-03-11
   experiment: phenix
   software: jekyll zenodo
@@ -104,24 +119,32 @@
   title: DUNE software overview
   author: viren
   venue: NPPS talk
+  type: slides
+  category: npps
   experiment: dune
 
 - name: /assets/slides/2019-06-12-jaikarProduction.pdf
   title: PHENIX and STAR production
   author: jaikar
   venue: NPPS talk
+  type: slides
+  category: npps
   experiment: phenix star
 
 - name: /assets/slides/2019-06-12-klimentov-ATLAS-SC-BNL.pdf
   title: ATLAS software at BNL
   author: klimentov
   venue: NPPS talk
+  type: slides
+  category: npps
   experiment: atlas
 
 - name: /assets/slides/2019-06-19-maeno-PanDA.pdf
   title: The PanDA workload management system
   author: maeno
   venue: NPPS talk
+  type: slides
+  category: npps
   experiment: atlas
   software: panda
   team: wfm
@@ -130,6 +153,8 @@
   title: sPHENIX software overview
   author: pinkenburg
   venue: NPPS talk
+  type: slides
+  category: npps
   experiment: sphenix
   software: fun4all
 
@@ -137,6 +162,8 @@
   title: ATLAS software infrastructure
   author: undrus
   venue: NPPS talk
+  type: slides
+  category: npps
   experiment: atlas
   team: swsupport
   software: atlas-ci-nightly
@@ -145,6 +172,8 @@
   title: The ATLAS Run-3 analysis model
   author: elmsheuser
   venue: NPPS talk
+  type: slides
+  category: npps
   experiment: atlas
 
 - name: https://indico.bnl.gov/event/6284/timetable/?view=standard
@@ -152,6 +181,7 @@
   author: laycock
   venue: BNL Physics Dept Summer Lecture Series 2019
   type: slides
+  category: misc
   format: link
   date: 2019-07-20
   team: collabtools
@@ -160,6 +190,7 @@
   title: BNL's NPPS Group
   author: wenaus
   venue: MIT visit to BNL
+  category: misc
   type: slides
   format: link
   date: 2019-08-15
@@ -168,14 +199,17 @@
   title: EIC software overview
   author: kiselev
   venue: NPPS talk
+  type: slides
+  category: npps
   experiment: eic
   software: eicroot fun4all eic-smear
   
 - name: https://plexoos.github.io/pub-docs/npps-intro-activities/#/
-  title: Summary of select activities - Dmitri Smirnov
+  title: Summary of select activities
   author: smirnov
   venue: NPPS talk
   type: slides
+  category: npps
   format: link
   date: 2019-09-4
   experiment: star
@@ -185,6 +219,7 @@
   author: wenaus
   venue: DUNE computing model workshop
   type: slides
+  category: misc
   format: link
   date: 2019-09-09
   experiment: atlas dune
@@ -196,6 +231,7 @@
   author: padolski
   venue: NPPS talk
   type: slides
+  category: npps
   format: link
   date: 2019-10-11
   experiment: atlas belle2
@@ -207,6 +243,7 @@
   author: wenaus
   venue: IRIS-HEP HL-LHC Workshop
   type: slides
+  category: misc
   format: link
   date: 2019-10-23
   experiment: atlas
@@ -217,6 +254,7 @@
   author: wenaus
   venue: IRIS-HEP HL-LHC Workshop
   type: slides
+  category: misc
   format: link
   date: 2019-10-23
   experiment: atlas
@@ -227,6 +265,7 @@
   author: klimentov elmsheuser maeno
   venue: HEPiX Fall 2019
   type: slides
+  category: misc
   format: link
   date: 2019-11-17
   experiment: atlas
@@ -238,6 +277,7 @@
   author: wenaus maeno
   venue: CHEP 2019
   type: slides
+  category: chep
   format: link
   date: 2019-11-04
   experiment: atlas
@@ -249,6 +289,7 @@
   author: padolski klimentov
   venue: CHEP 2019
   type: slides
+  category: chep
   format: link
   date: 2019-11-04
   experiment: atlas
@@ -260,6 +301,7 @@
   author: elmsheuser
   venue: CHEP 2019
   type: slides
+  category: chep
   format: link
   date: 2019-11-04
   experiment: atlas
@@ -270,6 +312,7 @@
   author: elmsheuser
   venue: CHEP 2019
   type: slides
+  category: chep
   format: link
   date: 2019-11-04
   experiment: atlas
@@ -280,6 +323,7 @@
   author: laycock
   venue: CHEP 2019
   type: slides
+  category: chep
   format: link
   date: 2019-11-04
   experiment: atlas belle2 dune
@@ -291,6 +335,7 @@
   author: laycock
   venue: CHEP 2019
   type: slides
+  category: chep
   format: link
   date: 2019-11-04
 
@@ -299,6 +344,7 @@
   author: padolski laycock mashinistov
   venue: CHEP 2019
   type: slides
+  category: chep
   format: link
   date: 2019-11-04
   experiment: belle2
@@ -310,6 +356,7 @@
   author: maeno nilsson
   venue: CHEP 2019
   type: slides
+  category: chep
   format: link
   date: 2019-11-04
   experiment: atlas
@@ -321,6 +368,7 @@
   author: maeno
   venue: CHEP 2019
   type: slides
+  category: chep
   format: link
   date: 2019-11-04
   experiment: atlas
@@ -332,6 +380,7 @@
   author: maeno
   venue: CHEP 2019
   type: slides
+  category: chep
   format: link
   date: 2019-11-04
   experiment: atlas
@@ -343,6 +392,7 @@
   author: mashinistov potekhin
   venue: CHEP 2019
   type: slides
+  category: chep
   format: link
   date: 2019-11-04
   experiment: belle2
@@ -354,6 +404,7 @@
   author: nilsson
   venue: CHEP 2019
   type: slides
+  category: chep
   format: link
   date: 2019-11-04
   experiment: atlas
@@ -365,6 +416,7 @@
   author: nilsson
   venue: CHEP 2019
   type: slides
+  category: chep
   format: link
   date: 2019-11-04
   experiment: atlas
@@ -376,6 +428,7 @@
   author: nowak
   venue: CHEP 2019
   type: slides
+  category: chep
   format: link
   date: 2019-11-04
   experiment: atlas
@@ -387,6 +440,7 @@
   author: potekhin
   venue: CHEP 2019
   type: slides
+  category: chep
   format: link
   date: 2019-11-04
   experiment: dune
@@ -404,11 +458,34 @@
   team: analysis
   software: scikit-hep
 
+- name: https://indico.cern.ch/event/773049/contributions/3474789/
+  title: Dealing with High Background Rates in Simulations of the STAR Heavy Flavor Tracker
+  author: vanburen
+  venue: CHEP 2019
+  type: slides
+  category: chep
+  format: link
+  date: 2019-11-04
+  experiment: star
+  team: simulation
+
+- name: https://indico.cern.ch/event/773049/contributions/3476150/
+  title: Extreme compression for Large Scale Data store
+  author: vanburen
+  venue: CHEP 2019
+  type: slides
+  category: chep
+  format: link
+  date: 2019-11-04
+  experiment: star
+  team: eventdata
+
 - name: https://indico.cern.ch/event/773049/contributions/3474425/
   title: The ATLAS Data Carousel Project
   author: klimentov elmsheuser
   venue: CHEP 2019
   type: slides
+  category: chep
   format: link
   date: 2019-11-04
   experiment: atlas
@@ -420,6 +497,7 @@
   authorfull: Cedric Serfon (BNL)
   venue: BNL Physics S&C Seminar Series
   type: slides
+  category: misc
   format: link
   date: 2019-11-20
   experiment: atlas belle2
@@ -431,6 +509,7 @@
   author: maeno
   venue: ATLAS WFMS meeting
   type: slides
+  category: misc
   format: link
   date: 2019-11-20
   experiment: atlas
@@ -443,6 +522,7 @@
   authorfull: Pavlo Svirin (ATLAS CERN)
   venue: ATLAS WFMS meeting
   type: slides
+  category: misc
   format: link
   date: 2019-11-14
   experiment: atlas
@@ -454,6 +534,7 @@
   author: elmsheuser
   venue: ATLAS SPOT meeting
   type: slides
+  category: misc
   format: link
   date: 2019-10-30
   experiment: atlas
@@ -464,6 +545,7 @@
   author: maeno
   venue: NPPS meeting
   type: slides
+  category: npps
   format: link
   date: 2019-11-22
   experiment: atlas
@@ -475,6 +557,7 @@
   author: potekhin
   venue: WLCG DAP Workshop 2019
   type: slides
+  category: misc
   format: link
   date: 2019-11-27
   experiment: phenix star sphenix
