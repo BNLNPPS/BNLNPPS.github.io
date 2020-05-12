@@ -18,5 +18,15 @@ Or dial into the meeting:
 
 At BNL, meetings are announced on the Physics Dept S&C list `phys-soft-comp-l@lists.bnl.gov`, open to all. [Subscribe here](https://lists.bnl.gov/mailman/listinfo/phys-soft-comp-l).
 
+The organizing committee for the round table is currently
+<br> &nbsp; Alexander Kiselev (BNL)
+<br> &nbsp; Amber Boehnlein (JLAB)
+<br> &nbsp; Graham Heyes (JLAB)
+<br> &nbsp; Mark Ito (JLAB)
+<br> &nbsp; Markus Diefenthaler (JLAB)
+<br> &nbsp; Ofer Rind (BNL)
+<br> &nbsp; Paul Laycock (BNL)
+<br> &nbsp; Torre Wenaus (BNL)
 
-More information about the Computing Round Table (previous and upcoming meetings) can be found at <a href="https://www.jlab.org/indico/event/307/">https://www.jlab.org/indico/event/307/</a>.
+
+More information about the Computing Round Table (previous and upcoming meetings) can be found at <a href="https://www.jlab.org/roundtable ">https://www.jlab.org/roundtable </a>.

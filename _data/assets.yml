@@ -563,3 +563,13 @@
   experiment: phenix star sphenix
   team: datapreservation
   software: invenio
+
+- name: https://cds.cern.ch/record/2708664
+  title: Evolution of the ATLAS analysis model for Run-3 and prospects for HL-LHC
+  author: elmsheuser
+  venue: CHEP 2019
+  type: document
+  format: link
+  date: 2020-02-05
+  experiment: atlas
+  team: analysis ddm wfm eventdata
