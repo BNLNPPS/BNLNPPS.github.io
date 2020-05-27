@@ -1,12 +1,14 @@
 name: BNL Nuclear and Particle Physics Software website
 description: The website of the Nuclear and Particle Physics Software (NPPS) group in Brookhaven National Laboratory's Physics Department
 url: http://bnlnpps.org
+#
 excerpt_separator: <!--more-->
 timezone: America/New_York
 highlighter: rouge
 markdown: kramdown
 future: true
 exclude: [vendor]
+#
 plugins:
   - jekyll-mentions
   - jekyll-sitemap
