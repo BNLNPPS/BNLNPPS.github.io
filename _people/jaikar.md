@@ -2,8 +2,8 @@
 title: Amol Jaikar
 name: jaikar
 experiments: star phenix
-teams: swsupport userinterface datapreservation
-software: jekyll
+teams: swsupport userinterface
+software: birdview
 tags: member
 layout: default
 ---

@@ -4,7 +4,8 @@ name: nilsson
 experiments: atlas
 teams: wfm ddm hpc
 software: panda pandapilot harvester idds eventservice
-tags: member
+tags: member appointments
+appointments: PanDA Pilot Project Leader
 layout: default
 ---
 

@@ -4,7 +4,8 @@ name: maeno
 experiments: atlas hsf google-atlas
 teams: wfm analysis databases ddm hpc
 software: panda harvester idds eventservice data-carousel pegasus
-tags: member
+tags: member appointments
+appointments: PanDA Lead Developer, Harvester Project Leader, iDDS Project Leader
 layout: default
 ---
 
