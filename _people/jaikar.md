@@ -1,7 +1,7 @@
 ---
 title: Amol Jaikar
 name: jaikar
-experiments: star phenix
+experiments: star
 teams: swsupport userinterface
 software: birdview
 tags: member

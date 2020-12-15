@@ -1,8 +1,8 @@
 ---
 title: Dmitri Smirnov
 name: smirnov
-experiments: star
-teams: reconstruction swsupport
+experiments: star sphenix
+teams: reconstruction simulation swsupport
 software: scikit-hep
 tags: member
 layout: default
