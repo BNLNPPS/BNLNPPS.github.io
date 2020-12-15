@@ -4,7 +4,7 @@ name: kauder
 experiments: eic
 teams: simulation reconstruction
 software: eicsmear
-tags: collaborator
+tags: member leader
 layout: default
 ---
 

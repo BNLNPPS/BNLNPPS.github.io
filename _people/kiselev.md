@@ -4,7 +4,7 @@ name: kiselev
 experiments: eic
 teams: simulation reconstruction core
 software: eicroot eicsmear
-tags: collaborator leader
+tags: collaborator
 layout: default
 ---
 
