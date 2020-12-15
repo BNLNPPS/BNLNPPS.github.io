@@ -1,5 +1,5 @@
 ---
-title: Google-ATLAS HL-LHC Project
+title: Google-ATLAS HL-LHC R&D Project
 abbrev: Google-ATLAS project
 experiment: google-atlas
 teams: ddm wfm hpc eventdata
