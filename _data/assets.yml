@@ -573,3 +573,23 @@
   date: 2020-02-05
   experiment: atlas
   team: analysis ddm wfm eventdata
+
+- name: https://indico.cern.ch/event/948465/contributions/4324018/
+  title: Seamless integration of commercial Clouds with ATLAS Distributed Computing
+  author: elmsheuser
+  venue: vCHEP 2021
+  type: document
+  format: link
+  date: 2021-05-20
+  experiment: atlas google-atlas
+  team: analysis ddm wfm 
+
+- name: https://indico.cern.ch/event/1126938/
+  title: ATLAS status report
+  author: elmsheuser
+  venue: 149th LHCC meeting - Open session
+  type: document
+  format: link
+  date: 2022-03-09
+  experiment: atlas 
+
