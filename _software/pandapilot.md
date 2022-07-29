@@ -1,5 +1,5 @@
 ---
-title: PanDA pilot
+title: PanDA Pilot
 software: pandapilot
 teams: wfm hpc
 common: false
@@ -10,4 +10,4 @@ layout: default
 
 ### References
 
-- [PanDA pilot repository](https://github.com/PanDAWMS/pilot2)
+- [PanDA pilot repository](https://github.com/PanDAWMS/pilot3)
