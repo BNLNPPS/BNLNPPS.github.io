@@ -72,7 +72,7 @@
               <ul class="dropdown-menu" aria-labelledby="projects_menu">
                   <li><a href="/about/who.html">People</a></li>
                   <li><a href="/resources/documents.html">Documents &amp; Presentations</a></li>
-                  <li><a href="/resources/support.html">Support and operations</a></li>
+<!--              <li><a href="/resources/support.html">Support and operations</a></li> -->
                   <li><a href="https://github.com/BNLNPPS" target="_blank">BNLNPPS in GitHub</a></li>
                 </ul>
             </li>
