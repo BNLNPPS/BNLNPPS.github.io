@@ -2,7 +2,7 @@
 title: Intelligent data delivery system (iDDS)
 abbrev: iDDS
 software: idds
-teams: wfm ddm hpc
+teams: wfm ddm hpc ml
 common: true
 layout: default
 ---

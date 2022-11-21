@@ -2,7 +2,7 @@
 title: Torre Wenaus
 name: wenaus
 experiments: atlas eic lsst hsf
-teams: collabtools simulation wfm hpc
+teams: collabtools simulation wfm hpc ml
 software: panda idds hepsoftware eventservice pandamon jekyll east
 tags: member leader grouplead appointments
 appointments: US ATLAS HL-LHC Computing Co-Manager, EIC UG Software WG Co-Convener, NPPS Group Leader

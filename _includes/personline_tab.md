@@ -7,11 +7,11 @@
 {% endif %}
 
 {% if person.tags contains 'member' %}
-&nbsp; &nbsp; NPPS member
+&nbsp; &nbsp; Member
 {% endif %}
 
 {% if person.tags contains 'collaborator' %}
-&nbsp; &nbsp; NPPS collaborator
+&nbsp; &nbsp; Collaborator
 {% endif %}
 {% if include.short!='short' %}
   </td>

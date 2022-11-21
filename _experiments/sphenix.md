@@ -2,7 +2,7 @@
 title: sPHENIX at RHIC (BNL)
 abbrev: PHENIX
 experiment: sphenix
-teams: simulation reconstruction databases ddm wfm hpc eventdata
+teams: simulation reconstruction databases ddm wfm hpc eventdata ml
 software: panda idds fun4all acts rootframework invenio
 layout: default
 ---

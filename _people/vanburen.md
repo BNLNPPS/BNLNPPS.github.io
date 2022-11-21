@@ -1,5 +1,5 @@
 ---
-title: Gene Van Buren
+title: Gene Van Buren (STAR)
 name: vanburen
 experiments: star
 teams: simulation reconstruction eventdata

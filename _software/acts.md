@@ -9,6 +9,7 @@ layout: default
 {% include softwarespecs.html %}
 
 ACTS is a common tracking software package originally developed for ATLAS and now used by several experiments.
+
 ## References
 
 - [ACTS documentation](https://acts.readthedocs.io/en/latest/)

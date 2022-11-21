@@ -1,7 +1,7 @@
 ---
 title: Scikit-HEP
 software: scikit-hep
-teams: analysis
+teams: analysis ml
 common: true
 layout: default
 ---

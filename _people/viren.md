@@ -1,8 +1,8 @@
 ---
-title: Brett Viren
+title: Brett Viren (EDG)
 name: viren
 experiments: dune
-teams: simulation reconstruction core realtime
+teams: simulation reconstruction core realtime ml
 software: wirecell
 tags: collaborator leader
 layout: default

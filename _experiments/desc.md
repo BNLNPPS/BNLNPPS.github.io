@@ -11,7 +11,6 @@ layout: default
 
 DESC is an experiment utilizing the Rubin Observatory data set to study dark energy.
 
-
 ### References
 
 - [LSST DESC website](https://lsstdesc.org/)

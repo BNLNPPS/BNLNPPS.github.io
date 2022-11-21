@@ -45,8 +45,6 @@
                   {% for software in site.software %}
                     <li><a href="{{ software.url }}">{{ software.title }}</a></li>
                   {% endfor %}
-                  <li class="divider"></li>
-                  <li><a href="https://hepsoftware.org"  target="_blank">HEP software knowledge base</a></li>
                 </ul>
             </li>
             

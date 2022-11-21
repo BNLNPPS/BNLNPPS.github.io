@@ -2,7 +2,7 @@
 title: Meifeng Lin (CSI)
 name: lin
 experiments: atlas dune
-teams: wfm hpc
+teams: wfm hpc ml
 software: panda idds funcx parsl
 tags: collaborator
 appointments: CSI HPC Lead

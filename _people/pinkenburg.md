@@ -1,5 +1,5 @@
 ---
-title: Chris Pinkenburg
+title: Chris Pinkenburg (sPHENIX)
 name: pinkenburg
 experiments: phenix sphenix eic
 teams: reconstruction simulation core eventdata datapreservation

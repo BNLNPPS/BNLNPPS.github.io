@@ -2,7 +2,7 @@
 title: Electron Ion Collider (EIC)
 abbrev: EIC
 experiment: eic
-teams: simulation reconstruction analysis
+teams: simulation reconstruction analysis ml
 software: fun4all eicroot eicsmear east jekyll
 layout: default
 ---

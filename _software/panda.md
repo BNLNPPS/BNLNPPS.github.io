@@ -2,7 +2,7 @@
 title: PanDA workload management system
 abbrev: PanDA
 software: panda
-teams: wfm databases hpc
+teams: wfm databases hpc ml
 common: true
 layout: default
 ---

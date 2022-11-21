@@ -2,7 +2,7 @@
 title: Google-ATLAS HL-LHC R&D Project
 abbrev: Google-ATLAS project
 experiment: google-atlas
-teams: ddm wfm hpc eventdata
+teams: ddm wfm hpc eventdata ml
 software: panda pandamon harvester rucio data-carousel
 layout: default
 ---
