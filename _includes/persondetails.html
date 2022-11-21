@@ -1,37 +1,26 @@
-<a href="{{ who.url }}" >{{ who.title }}</a>
 
-  {% if who.tags contains 'grouplead' %}
-    &nbsp; &nbsp; Group leader
-  {% endif %}
-
-  {% if who.tags contains 'leader' %}
-    &nbsp; &nbsp; Leadership team member
-  {% endif %}
-
-  {% if who.tags contains 'member' %}
-    &nbsp; &nbsp; Group member
-  {% endif %}
-
-  {% if who.tags contains 'collaborator' %}
-    &nbsp; &nbsp; Collaborator
-  {% endif %}
+{% assign person=who %}
+{% include personline_tab.md short='short' %}
   
+<tr>
+<td>
+
 <ul>
-<li>Experiments and projects:</li>
+<li>Activities:</li>
 <ul>
 {% for experiment in site.experiments %}
   {% if who.experiments contains experiment.experiment %}
-    <li>  <a href="{{ experiment.url }}">{{ experiment.title}}</a>
+    <li>  <a href="{{ experiment.url }}">{{ experiment.title}}</a></li>
   {% endif %}
 {% endfor %}
 </ul>
 
-<li>Technical teams:</li>
+<li>Technical areas:</li>
 
 <ul>
 {% for team in site.techteams %}
   {% if who.teams contains team.team %}
-    <li> &nbsp; &nbsp;  <a href="{{ team.url }}">{{ team.title}}</a>
+    <li> &nbsp; &nbsp;  <a href="{{ team.url }}">{{ team.title}}</a></li>
   {% endif %}
 {% endfor %}
 </ul>
@@ -41,9 +30,13 @@
 <ul>
 {% for software in site.software %}
   {% if who.software contains software.software %}
-    <li> &nbsp; &nbsp;  <a href="{{ software.url }}">{{ software.title}}</a>
+    <li> &nbsp; &nbsp;  <a href="{{ software.url }}">{{ software.title}}</a></li>
   {% endif %}
 {% endfor %}
 </ul>
 
 </ul>
+
+</td>
+
+</tr>

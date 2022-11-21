@@ -17,7 +17,7 @@ Group leader: <a href="/people/wenaus.html">Torre Wenaus</a>
 <table width="100%">
 {% for who in site.people %}
 {% if who.tags contains 'leader' %}
-{% include persondetails_updated.md %}
+{% include persondetails.html %}
 {% endif %}
 {% endfor %}
 </table>
@@ -27,7 +27,7 @@ Group leader: <a href="/people/wenaus.html">Torre Wenaus</a>
 <table width="100%">
 {% for who in site.people %}
 {% if who.tags contains 'member' %}
-{% include persondetails_updated.md %}
+{% include persondetails.html %}
 {% endif %}
 {% endfor %}
 </table>
@@ -37,8 +37,7 @@ Group leader: <a href="/people/wenaus.html">Torre Wenaus</a>
 <table width="100%">
 {% for who in site.people %}
 {% if who.tags contains 'collaborator' %}
-{% include persondetails_updated.md %}
+{% include persondetails.html %}
 {% endif %}
 {% endfor %}
 </table>
-
