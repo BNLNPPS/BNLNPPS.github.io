@@ -19,8 +19,7 @@
 <table width="100%">
 {% for person in site.people %}
 {% if person.experiments contains {{page.experiment}} %}
-{% include personline_tab.md %}
-      <!-- br> &nbsp; &nbsp;   include personline.html -->
+{% include personline.html %}
     {% endif %}
       {% endfor %}
 </table>      
