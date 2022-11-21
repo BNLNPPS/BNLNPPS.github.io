@@ -12,4 +12,3 @@ layout: default
 ### References
 
 - [ATLAS website](https://atlas.cern/)
-
