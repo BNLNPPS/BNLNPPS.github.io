@@ -1,7 +1,7 @@
 ---
 title: Maxim Potekhin
 name: potekhin
-experiments: phenix eic dune
+experiments: phenix sphenix eic lusee
 teams: collabtools simulation datapreservation databases
 software: dunedqm invenio jekyll zenodo
 tags: member appointments

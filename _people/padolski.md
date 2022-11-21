@@ -4,8 +4,7 @@ name: padolski
 experiments: atlas belle2 lsst
 teams: wfm ddm userinterface collabtools
 software: pandamon
-tags: member appointments
-appointments: ATLAS Analysics Group Co-convener, ATLAS Operations Intelligence Coordinator
+tags: former
 layout: default
 ---
 

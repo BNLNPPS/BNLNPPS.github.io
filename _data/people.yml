@@ -7,8 +7,17 @@
 - name: elmsheuser
   full: Johannes Elmsheuser
 
-- name: jaikar
-  full: Amol Jaikar
+- name: gerlach
+  full: Lino Gerlach
+
+- name: guan
+  full: Wen Guan
+
+- name: Huang
+  full: Jin Huang
+
+- name: karavakis
+  full: Eddie Karavakis
 
 - name: kauder
   full: Kolja Kauder
@@ -22,6 +31,9 @@
 - name: laycock
   full: Paul Laycock
 
+- name: lin
+  full: Meifeng Lin
+
 - name: maeno
   full: Tadashi Maeno
 
@@ -34,11 +46,11 @@
 - name: nowak
   full: Marcin Nowak
 
+- name: osborn
+  full: Joe Osborn
+
 - name: padolski
   full: Sergey Padolski
-
-- name: panitkin
-  full: Sergey Panitkin
 
 - name: perevoztchikov
   full: Victor Perevoztchikov
@@ -49,11 +61,17 @@
 - name: potekhin
   full: Maxim Potekhin
 
+- name: santiago
+  full: Carlene Santiago
+
 - name: serfon
   full: Cedric Serfon
 
 - name: smirnov
   full: Dmitri Smirnov
+
+- name: tsai
+  full: Fang-Ying Tsai
 
 - name: undrus
   full: Alex Undrus
@@ -64,8 +82,20 @@
 - name: viren
   full: Brett Viren
 
+- name: webb
+  full: Jason Webb
+
+- name: weber
+  full: Christian Weber
+
 - name: wenaus
   full: Torre Wenaus
 
+- name: yang
+  full: Zhaoyu Yang
+
 - name: ye
   full: Shuwei Ye
+
+- name: zhao
+  full: Xin Zhao

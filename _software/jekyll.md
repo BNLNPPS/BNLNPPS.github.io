@@ -13,5 +13,3 @@ layout: default
 ### References
 
 - [Jekyll website](https://jekyllrb.com/)
-
-

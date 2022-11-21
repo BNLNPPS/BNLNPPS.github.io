@@ -4,7 +4,7 @@ name: arkhipkin
 experiments: star eic
 teams: databases collabtools
 software: 
-tags: member
+tags: collaborator
 layout: default
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: Jason Webb
 name: webb
-experiments: star
+experiments: star sphenix
 teams: simulation
-software: geant4star
+software: geant4star shrek panda idds
 tags: member
 layout: default
 ---
@@ -11,4 +11,3 @@ layout: default
 {% include personspecs.html %}
 
 ### References
-

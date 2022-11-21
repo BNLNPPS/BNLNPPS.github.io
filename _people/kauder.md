@@ -1,9 +1,9 @@
 ---
 title: Kolja Kauder
 name: kauder
-experiments: eic
+experiments: eic star
 teams: simulation reconstruction
-software: eicsmear
+software: eicsmear geant4 east
 tags: member leader
 layout: default
 ---
