@@ -1,5 +1,5 @@
 ---
-title: Dmitry Arkhipkin
+title: Dmitry Arkhipkin (SDCC)
 name: arkhipkin
 experiments: star eic
 teams: databases collabtools

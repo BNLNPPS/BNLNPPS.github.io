@@ -18,6 +18,9 @@ collections:
   experiments:
     output: true
     permalink: /experiments/:title.html
+  people:
+    output: true
+    permalink: /people/:title.html
   techteams:
     output: true
     permalink: /techteams/:title.html
@@ -34,9 +37,6 @@ collections:
     output: true
     permalink: /about/:title.html
 # All other containers:
-  people:
-    output: true
-    permalink: /people/:title.html
   misc:
     output: true
     permalink: /misc/:title.html

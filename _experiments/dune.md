@@ -1,5 +1,5 @@
 ---
-title: DUNE Long Baseline Neutrino Facility (FNAL &amp; Sanford)
+title: DUNE Long Baseline Neutrino Facility
 abbrev: DUNE
 experiment: dune
 teams: ddm wfm databases reconstruction core swsupport hpc userinterface

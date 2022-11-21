@@ -1,5 +1,5 @@
 ---
-title: Alexander Kiselev
+title: Alexander Kiselev (EIC)
 name: kiselev
 experiments: eic
 teams: simulation reconstruction core

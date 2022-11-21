@@ -1,5 +1,5 @@
 ---
-title: Belle II at SuperKEKB (KEK)
+title: Belle II at SuperKEKB
 abbrev: Belle II
 experiment: belle2
 teams: databases ddm
