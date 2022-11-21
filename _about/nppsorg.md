@@ -5,11 +5,11 @@ abbrev: nppsorg
 weight: 10
 ---
 
-# NPPS organization
+## NPPS organization
 
 ## Mandate
 
-The Nuclear and Particle Physics Software (NPPS) Group in BNL's Physics Department is a consortium of experts on nuclear and high energy physics software and associated infrastructure, services and tools. The group participates in and supports the Laboratory’s NPP program, with a membership drawn largely from software and computing experts in the experiments on which BNL is a collaborator.  The group’s goal is to consolidate and coordinate software efforts across the Department, sharing the knowledge, software and infrastructure consolidated within the group. The group's activities include proposing and leading development and R&D efforts with both near and longer term objectives aligned with the strategic plan and vision of the Department, which includes strength in software and computing as part of BNL’s vision for technical and intellectual leadership in key HENP experiments. 
+The Nuclear and Particle Physics Software (NPPS) Group in BNL's Physics Department is a consortium of experts on nuclear and high energy physics software and associated infrastructure, services and tools. The group participates in and supports the Laboratory’s NPP program, with a membership drawn largely from software and computing experts in the experiments on which BNL is a collaborator.  The group’s goal is to consolidate and coordinate software efforts across the Department, sharing the knowledge, software and infrastructure consolidated within the group. The group's activities include proposing and leading development and R&D efforts with both near and longer term objectives aligned with the strategic plan and vision of the Department, which includes strength in software and computing as part of BNL’s vision for technical and intellectual leadership in key HENP experiments.
 
 The group gives top priority to a strong operation component, fulfilling deliverables and responsibilities to the experiments, with operational needs serving as a leading driver to development, and operations responsibilities complementing development responsibilities. The group also collaborates closely with software experts in the research programs of other groups; the team of NPPS collaborators is not limited to the group's membership. The group emphasizes common efforts and common software, both internally and as a participant in common software activities in the wider HENP community, for example through strong participation in the HEP Software Foundation (HSF).
 
@@ -26,18 +26,19 @@ The NPPS group, as a consolidation of strong experimental software teams in both
 
 ## Leadership
 
-The NPPS Group Leader reports to the Physics Chair. 
-The group is managed by a leadership team consisting of
-   * Group leader with overall responsibility and answerable to the Department for the group’s program. The Group Leader works in close collaboration with the rest of the leadership team in all aspects of planning and managing the group’s activities and overseeing its personnel.
-   * Leadership team members representing the principal experiments and scientific activity areas of the group, with members chosen in consultation between the NPPS leadership and the experiments.
-   
+The NPPS Group Leader reports to the Physics Chair. The group is managed by a leadership team consisting of
+
+* Group leader with overall responsibility and answerable to the Department for the group’s program. The Group Leader works in close collaboration with the rest of the leadership team in all aspects of planning and managing the group’s activities and overseeing its personnel.
+* Leadership team members representing the principal experiments and scientific activity areas of the group, with members chosen in consultation between the NPPS leadership and the experiments.
+
 Leadership team responsibilities include
-   * Setting plans, goals and priorities for the group
-   * Serving as liaison between the group and the experimental/scientific communities
-   * Overseeing technical team activities
-   * Serving as points of contact between the group and funding agencies
-   * Identifying funding opportunities and taking the lead in developing proposals
-   * Conducting the day to day work of managing the group via regular management meetings and ongoing discussions
+
+* Setting plans, goals and priorities for the group
+* Serving as liaison between the group and the experimental/scientific communities
+* Overseeing technical team activities
+* Serving as points of contact between the group and funding agencies
+* Identifying funding opportunities and taking the lead in developing proposals
+* Conducting the day to day work of managing the group via regular management meetings and ongoing discussions
 
 ## Technical teams and forums
 
@@ -61,20 +62,20 @@ For meeting and event information see the appropriate sections of this site.
 
 NPPS hosts and organizes topical meetings, workshops, tutorials etc., often collaboratively with others. NPPS personnel are involved in community activities through e.g. HSF.
 
-## Collaborators 
+## Collaborators
 
 NPPS collaborates with groups and organizations within and outside BNL, including
-   - [Omega](https://www.bnl.gov/omega/)
-   - [Electronic Detector Group (EDG)](https://www.phy.bnl.gov/edg/w/Main_Page)
-   - [STAR](https://www.star.bnl.gov)
-   - [PHENIX](https://www.phenix.bnl.gov)
-   - [RHIC spin](https://wiki.bnl.gov/rhicspin/RHIC_Spin_Group)
-   - [Cosmology and astrophysics](https://www.cosmo.bnl.gov)
-   - [SDCC/RACF](https://www.sdcc.bnl.gov)
-   - [CSI](https://www.bnl.gov/compsci/)
-   - [US ATLAS operations program](https://po.usatlas.bnl.gov/programoffice/op.php)
-   - [Belle II](https://www.belle2.org)
-   - DUNE computing consortium
-   - [LSST DESC](https://lsstdesc.org)
-   - [HEP Software Foundation](https://hepsoftwarefoundation.org)
 
+* [Omega](https://www.bnl.gov/omega/)
+* [Electronic Detector Group (EDG)](https://www.phy.bnl.gov/edg/w/Main_Page)
+* [STAR](https://www.star.bnl.gov)
+* [PHENIX](https://www.phenix.bnl.gov)
+* [RHIC spin](https://wiki.bnl.gov/rhicspin/RHIC_Spin_Group)
+* [Cosmology and astrophysics](https://www.cosmo.bnl.gov)
+* [SDCC/RACF](https://www.sdcc.bnl.gov)
+* [CSI](https://www.bnl.gov/compsci/)
+* [US ATLAS operations program](https://po.usatlas.bnl.gov/programoffice/op.php)
+* [Belle II](https://www.belle2.org)
+* DUNE computing consortium
+* [LSST DESC](https://lsstdesc.org)
+* [HEP Software Foundation](https://hepsoftwarefoundation.org)
