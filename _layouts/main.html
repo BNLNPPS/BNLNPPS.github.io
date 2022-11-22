@@ -80,13 +80,16 @@ The Nuclear and Particle Physics Software (NPPS) Group in Brookhaven National La
     	</p>
     	
     {% for sw in site.software %}
-        <p><a href="{{ sw.url }}" role="button">
-        {% if sw.common %}
-            <b> {{ sw.title }} </b>
+        {% if sw.tags contains 'former' %}
         {% else %}
-            {{ sw.title }}
+            <p><a href="{{ sw.url }}" role="button">
+            {% if sw.common %}
+                <b> {{ sw.title }} </b>
+            {% else %}
+                {{ sw.title }}
+            {% endif %}
+            </a></p>
         {% endif %}
-        </a></p>
     {% endfor %}
   </div>
 

@@ -3,6 +3,7 @@ title: Pegasus
 abbrev: Pegasus
 software: pegasus
 teams: wfm hpc
+tags: former
 common: true
 layout: default
 ---

@@ -19,6 +19,10 @@
 <h3> {{ page.title }} in NPPS </h3>
 {% endif %}
 
+{% if page.tags contains 'former' %}
+<h3> Formerly, not currently, active </h3>
+{% endif %}
+
 <p>
 {% if page.ref.size > 0 %}
     <a href="{{ page.ref }}">Website</a>
