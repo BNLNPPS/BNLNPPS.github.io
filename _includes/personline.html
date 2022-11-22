@@ -9,7 +9,11 @@
   {% if person.tags contains 'member' %}
   &nbsp; &nbsp; Member
   {% endif %}
-  
+
+  {% if person.tags contains 'former' %}
+  &nbsp; &nbsp; Former member
+  {% endif %}
+
   {% if person.tags contains 'collaborator' %}
   &nbsp; &nbsp; Collaborator
   {% endif %}
