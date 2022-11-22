@@ -25,7 +25,10 @@
                 <ul class="dropdown-menu" aria-labelledby="people_menu">
                   <li><a href="/about/who.html"><b>Who we are</b></a></li>
                   {% for people in site.people %}
-                    <li><a href="{{ people.url }}">{{ people.title }}</a></li>
+                    {% if people.tags contains 'former' %}
+                    {% else %}
+                        <li><a href="{{ people.url }}">{{ people.title }}</a></li>
+                    {% endif %}
                   {% endfor %}
                </ul>
             </li>
