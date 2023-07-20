@@ -569,6 +569,7 @@
   author: elmsheuser
   venue: CHEP 2019
   type: document
+  category: chep
   format: link
   date: 2020-02-05
   experiment: atlas
@@ -579,6 +580,7 @@
   author: elmsheuser
   venue: vCHEP 2021
   type: document
+  category: chep
   format: link
   date: 2021-05-20
   experiment: atlas google-atlas
@@ -589,6 +591,7 @@
   author: elmsheuser
   venue: 149th LHCC meeting - Open session
   type: document
+  category: chep
   format: link
   date: 2022-03-09
   experiment: atlas 
@@ -598,6 +601,7 @@
   author: elmsheuser
   venue: CHEP 2023
   type: document
+  category: chep
   format: link
   date: 2023-05-08
   experiment: atlas
