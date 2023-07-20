@@ -593,3 +593,11 @@
   date: 2022-03-09
   experiment: atlas 
 
+- name: https://indico.jlab.org/event/459/contributions/11553/
+  title: The ATLAS experiment software on ARM
+  author: elmsheuser
+  venue: CHEP 2023
+  type: document
+  format: link
+  date: 2023-05-08
+  experiment: atlas
