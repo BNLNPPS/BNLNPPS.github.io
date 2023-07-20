@@ -601,3 +601,15 @@
   format: link
   date: 2023-05-08
   experiment: atlas
+
+- name: https://indico.jlab.org/event/459/contributions/11488/
+  title:  Integrating the PanDA Workload Management System with the Vera C. Rubin Observatory 
+  author: karavakis guan yang wenaus
+  venue: CHEP 2023
+  type: slides
+  category: chep
+  format: link
+  date: 2023-05-11
+  experiment: lsst
+  team: wfm
+  software: panda pandamon pandapilot
