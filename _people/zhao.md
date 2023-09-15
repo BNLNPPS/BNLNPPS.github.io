@@ -1,7 +1,7 @@
 ---
 title: Xin Zhao
 name: zhao
-experiments: atlas sphenix rubin
+experiments: atlas sphenix lsst
 teams: wfm databases ddm
 software: panda harvester idds
 tags: member

@@ -4,7 +4,7 @@ name: perevoztchikov
 experiments: star
 teams: simulation reconstruction core
 software: rootframework
-tags: member
+tags: former collaborator
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Shuwei Ye
 name: ye
-experiments: atlas
+experiments: atlas eic
 teams: swsupport eventdata analysis
 software: lxr
 tags: member
