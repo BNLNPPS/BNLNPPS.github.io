@@ -78,4 +78,5 @@ NPPS collaborates with groups and organizations within and outside BNL, includin
 * [Belle II](https://www.belle2.org)
 * DUNE computing consortium
 * [LSST DESC](https://lsstdesc.org)
+* [Vera Rubin Observatory](https://rubinobservatory.org/)
 * [HEP Software Foundation](https://hepsoftwarefoundation.org)
