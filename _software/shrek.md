@@ -7,6 +7,6 @@ common: true
 layout: default
 ---
 
-SHREK is the production system developed for sPHENIX on the foundation of PanDA and iDDS.
+SHREK is a script-based BNL-local production system developed in NPPS for sPHENIX.
 
 {% include softwarespecs.html %}

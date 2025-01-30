@@ -10,7 +10,7 @@ layout: default
 
 {% include softwarespecs.html %}
 
-Pegasus is a workflow management system developed since 2001 by ISI at the University of Southern California (USC). PanDA is being integrated as a Pegasus back end. 
+Pegasus is a workflow management system developed since 2001 by ISI at the University of Southern California (USC). PanDA has in the past been integrated as a Pegasus back end. Not currently maintained or used.
 
 ### References
 
