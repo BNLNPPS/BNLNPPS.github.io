@@ -13,6 +13,8 @@ LuSEE@Night is the Lunar Surface Electromagnetics Experiment (LuSEE) to be lande
 It will probe the plasma and dust environments of the farside and will make the first cosmological observations from the
 Moon using the redshifted 21-cm hydrogen spectrum.
 
+NPPS developed LuSEE@Night software and infrastructure during the experiment's development.
+
 ### References
 
 - [Presentation on LuSEE, Stuart Bale](https://www.nasa.gov/sites/default/files/atoms/files/bale4lusee.pdf)

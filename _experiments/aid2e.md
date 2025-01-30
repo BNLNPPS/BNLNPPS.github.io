@@ -1,5 +1,5 @@
 ---
-title: AID2E - A scalable and distributed AI-assisted Detector Design for the EIC
+title: AID2E - AI-assisted Detector Design
 abbrev: AID2E
 experiment: aid2e
 teams: simulation ml wfm hpc

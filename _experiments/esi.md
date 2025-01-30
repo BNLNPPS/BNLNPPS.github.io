@@ -3,7 +3,7 @@ title: ESI - EIC Simulation Infrastructure
 abbrev: AID2E
 experiment: aid2e
 teams: simulation ml wfm hpc
-software: panda idds rucio
+software: east epic-software esi-software
 layout: default
 ---
 
