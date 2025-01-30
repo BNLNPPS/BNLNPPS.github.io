@@ -1,5 +1,5 @@
 ---
-title: PHYSLITE
+title: PHYSLITE compact ATLAS data format
 abbrev: PHYSLITE
 software: physlite
 teams: core analysis
