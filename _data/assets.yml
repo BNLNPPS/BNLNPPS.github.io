@@ -617,3 +617,22 @@
   experiment: lsst
   team: wfm
   software: panda pandamon pandapilot
+
+- name: https://arxiv.org/abs/2403.15873
+  title: Operational Experience and R&D results using the Google Cloud for High Energy Physics in the ATLAS experiment
+  author: elmsheuser klimentov maeno
+  venue: International Journal of Modern Physics A
+  type: document
+  format: link
+  date: 2024-03-23
+  experiment: atlas google-atlas
+
+- name: https://indico.cern.ch/event/1338689/contributions/6011581/
+  title: Using the ATLAS experiment software on heterogeneous resources
+  author: elmsheuser
+  venue: CHEP 2024
+  type: document
+  category: chep
+  format: link
+  date: 2024-10-23
+  experiment: atlas
