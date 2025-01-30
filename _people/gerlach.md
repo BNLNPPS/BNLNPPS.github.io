@@ -4,7 +4,7 @@ name: gerlach
 experiments: dune
 teams: databases reconstruction
 software: conddb wirecell
-tags: member
+tags: former collaborator
 layout: default
 ---
 

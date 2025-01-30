@@ -3,9 +3,9 @@ title: Johannes Elmsheuser
 name: elmsheuser
 experiments: atlas google-atlas
 teams: wfm ddm analysis reconstruction userinterface eventdata
-software: panda harvester prodsys data-carousel physlite
+software: panda harvester prodsys data-carousel physlite rntuple
 tags: member appointments
-appointments:
+appointments: US ATLAS HL-LHC Computing Manager
 layout: default
 ---
 

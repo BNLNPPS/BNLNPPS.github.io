@@ -1,11 +1,11 @@
 ---
 title: Tadashi Maeno
 name: maeno
-experiments: atlas sphenix rubin hsf google-atlas
+experiments: atlas lsst google-atlas redwood
 teams: wfm analysis databases ddm hpc ml
-software: panda harvester idds eventservice data-carousel pegasus
+software: panda harvester idds eventservice data-carousel
 tags: member appointments
-appointments: PanDA Lead Developer, Harvester Project Leader, iDDS Project Leader
+appointments: PanDA Project Leader, Harvester Project Leader, iDDS Project Leader
 layout: default
 ---
 

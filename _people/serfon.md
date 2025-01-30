@@ -4,7 +4,8 @@ name: serfon
 experiments: atlas belle2 google-atlas
 teams: ddm hpc
 software: rucio data-carousel
-tags: member leader
+tags: member leader appointments
+appointments: Belle II Deputy Computing Coordinator
 orcid: 0000-0001-7658-4901
 layout: default
 ---

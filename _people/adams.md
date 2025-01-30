@@ -4,7 +4,7 @@ name: adams
 experiments: dune desc
 teams: reconstruction core swsupport
 software: dunetpc
-tags: member
+tags: former
 layout: default
 ---
 

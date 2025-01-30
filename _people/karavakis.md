@@ -1,7 +1,7 @@
 ---
 title: Eddie Karavakis
 name: karavakis
-experiments: atlas sphenix lsst
+experiments: atlas lsst
 teams: wfm databases ddm
 software: panda harvester idds eventservice
 tags: member

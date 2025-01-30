@@ -4,7 +4,7 @@ name: weber
 experiments: atlas google-atlas
 teams: wfm analysis ml
 software: panda idds
-tags: collaborator
+tags: former
 layout: default
 ---
 
