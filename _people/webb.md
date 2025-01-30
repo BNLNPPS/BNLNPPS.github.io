@@ -3,7 +3,7 @@ title: Jason Webb
 name: webb
 experiments: star sphenix
 teams: simulation
-software: geant4star shrek panda idds
+software: geant4star shrek
 tags: member
 layout: default
 ---

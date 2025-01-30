@@ -5,7 +5,7 @@ experiments: sphenix eic
 teams: reconstruction
 software: acts
 tags: member
-appointments: PHENIX Simulation Convener, PHENIX DAP Task Force member
+appointments: sPHENIX Analysis Coordinator
 layout: default
 ---
 
