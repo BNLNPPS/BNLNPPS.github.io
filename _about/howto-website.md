@@ -21,18 +21,20 @@ It was bootstrapped from the [HSF website](https://hepsoftwarefoundation.org), w
 This website is implemented using [GitHub's Pages](https://pages.github.com/) service which makes it easy to create a website associated with a GitHub account or project. Pages uses [Jekyll](https://help.github.com/articles/using-jekyll-with-pages/), a tool to automatically build a website from source files (which are kept in GitHub). It supports structured sites like blogs in a simple but powerful way. It produces a very fast website as all pages are pre-built as static web pages.
 The site content is written using the easy [Markdown syntax](http://daringfireball.net/projects/markdown/syntax) (which is used by GitHub itself).
 
-A [Jekyll for beginners page](/misc/jekyll-beginners.html) provides some useful hints to make using Jekyll in the NPPS context easier.
+**A [Jekyll for beginners page](/misc/jekyll-beginners.html) provides some useful hints to make using Jekyll in the NPPS context easier.**
 
 ## How to add and edit information
 
-For developing the site once it stabilizes we will follow the *[pull request](https://help.github.com/articles/using-pull-requests/)* workflow in GitHub. During early rapid development the main editors use push.
+For developing the site the main editors use push. Less frequent contributors can use the *[pull request](https://help.github.com/articles/using-pull-requests/)* approach.
 To use the pull request workflow, fork the [website repository](https://github.com/BNLNPPS/BNLNPPS.github.io), edit the
 files you want to edit, push them to your fork, and open a pull request.
 
-You can easily (to the extent that installing Ruby is easy) set up a local instance of the site in order to preview your submissions. This is strongly recommended because it makes the mod-test-iterate cycle local and very fast, and ensures that what you ultimately upload is debugged.
+You can easily (to the extent that installing Ruby is easy, and it isn't) set up a local instance of the site in order to preview your submissions. This makes the mod-test-iterate cycle local and very fast, and ensures that what you ultimately upload is debugged.
 See the [documentation](https://help.github.com/articles/using-jekyll-with-pages/)
 on installing and running Jekyll.
 The website uses the master branch of the BNLNPPS.github.io repository.
+
+Another approach is to use the online service netlify.com to preview your changes. A free account is sufficient for this purpose.
 
 If you are not familiar with GitHub and Git, you can read the HSF's [survival kit](https://hepsoftwarefoundation.org/github-beginners.html)!
 
@@ -62,14 +64,6 @@ for adding the event in the ``Upcoming Events`` sidebar.
 
 Add the new item to `_data/assets.yml`. Note the metadata on the items there. If the item is at a link, you're done, just be sure to include metadata for date and type (slides/document). If you have corresponding material like a pdf to add, add it under `assets/`. Follow the placement (slides/documents subdirectory) and naming conventions (date comes first in name). If you enter metadata for experiment, software, and tech team in `assets.yml` the item will show up on the appropriate experiment, software, and tech team pages (as well as the author's page).
 
-### Adding contents from GoogleDoc
-
-It is sometimes handy to use GoogleDoc to produce some contents for the web site. For example, if taking minutes
-during a meeting, it allows several people to contribute to the effort of note taking and other persons who attended the
-meeting to validate/update them. It is then easy to convert a properly formatted GoogleDoc (using standard heading
-levels) to Markdown for inserting it into the website. Look at our [documentation](/misc/jekyll-beginners.html) on how to
-do it.
-
 ## Technical details
 
 ### Page templates
@@ -93,11 +87,10 @@ automatically.
 
 The main page contains three blocks, mostly hard-coded:
 
-* A *meetings* block, with links to the minutes of the last three meetings
-  auto-generated
-* A news item that holds a small snippet of current important information
-  (currently this is hard-coded, but it would be better if it were more dynamic)
 * An *activities* block, that serves as an entry point to the main sections of the website
+* A *meetings* block, with links to the minutes of the last three meetings
+  auto-generated (not presently active)
+* A news item that holds a small snippet of current important information (not presently active)
 
 They are filled with *[Liquid](https://github.com/Shopify/liquid/wiki)* snippets.
 
