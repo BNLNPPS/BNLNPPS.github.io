@@ -8,7 +8,7 @@ layout: default
 
 {% include softwarespecs.html %}
 
-ACTS is a common tracking software package originally developed for ATLAS and now used by several experiments.
+ACTS is a common tracking software package originally developed for ATLAS and now used by several experiments including sPHENIX and ePIC. 
 
 ## References
 
