@@ -143,5 +143,6 @@ Changes made to files are immediately reflected on the displayed site (at the ne
 
 At this point, pushes are allowed for site developers. A pull request/approval process may be put in place later if needed.
 
+## Preview builds with Netlify
 
-
+A 2025 update: [Netlify](https://www.netlify.com/) is a service that can be used to preview your changes to the site without needing to install Jekyll locally. It can be set up to automatically build the site from the GitHub repository and provide a preview URL. You can set up a personal account for free and have it build previews of your PRs. You may have to tweak your Gemfile to have Ruby build correctly (as always necessary with Ruby).

@@ -14,5 +14,3 @@ layout: default
 
 - [Invenio website](https://invenio-software.org/)
 - [CERN Open Data Portal](http://opendata.cern.ch/)
-
-
