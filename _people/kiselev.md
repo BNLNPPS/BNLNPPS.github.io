@@ -3,7 +3,7 @@ title: Alexander Kiselev (EIC)
 name: kiselev
 experiments: eic
 teams: simulation reconstruction core
-software: eicroot eicsmear
+software: eicsmear
 tags: collaborator
 layout: default
 ---
