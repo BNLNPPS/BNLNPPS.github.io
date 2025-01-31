@@ -4,7 +4,7 @@ name: tsai
 experiments: atlas google-atlas
 teams: simulation analysis ml
 software:
-tags: member appointments
+tags: member collaborator appointments
 appointments: ATLAS Fast Chain WG Convener 
 layout: default
 ---
