@@ -1,8 +1,8 @@
 ---
-title: ATLAS event service
+title: PanDA event service
 software: eventservice
 teams: wfm
-common: false
+common: true
 layout: default
 ---
 

@@ -2,7 +2,7 @@
 title: geant4star
 software: geant4star
 teams: simulation 
-common: true
+common: false
 layout: default
 ---
 

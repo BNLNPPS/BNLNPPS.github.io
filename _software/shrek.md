@@ -3,7 +3,7 @@ title: SHREK
 abbrev: SHREK
 software: shrek
 teams: wfm ddm
-common: true
+common: false
 layout: default
 ---
 

@@ -2,7 +2,7 @@
 title: Data Carousel
 software: data-carousel
 teams: wfm ddm
-common: false
+common: true
 layout: default
 ---
 
