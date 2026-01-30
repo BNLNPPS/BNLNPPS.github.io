@@ -1,9 +1,9 @@
 ---
 title: Zhaoyu Yang
 name: yang
-experiments: atlas lsst
+experiments: atlas eic lsst
 teams: wfm databases ddm
-software: panda harvester idds
+software: panda harvester idds swf-testbed
 tags: member
 layout: default
 ---

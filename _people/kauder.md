@@ -1,7 +1,7 @@
 ---
 title: Kolja Kauder
 name: kauder
-experiments: eic esi
+experiments: sphenix eic esi aid2e
 teams: simulation reconstruction
 software: eicsmear geant4 east
 tags: member appointments

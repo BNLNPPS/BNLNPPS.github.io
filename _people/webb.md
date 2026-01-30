@@ -1,10 +1,10 @@
 ---
 title: Jason Webb
 name: webb
-experiments: star sphenix
+experiments: star
 teams: simulation
-software: geant4star shrek
-tags: member
+software: geant4star
+tags: former member
 layout: default
 ---
 

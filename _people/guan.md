@@ -1,9 +1,9 @@
 ---
 title: Wen Guan
 name: guan
-experiments: atlas lsst google-atlas aid2e
+experiments: eic atlas lsst google-atlas aid2e
 teams: wfm analysis databases ddm hpc ml
-software: panda harvester idds eventservice
+software: panda harvester idds eventservice swf-testbed
 tags: member appointments
 appointments: iDDS Lead Developer
 layout: default

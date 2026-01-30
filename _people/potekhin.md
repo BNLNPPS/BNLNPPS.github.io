@@ -1,7 +1,7 @@
 ---
 title: Maxim Potekhin
 name: potekhin
-experiments: phenix sphenix eic lusee
+experiments: eic
 teams: collabtools simulation datapreservation databases ml
 software: invenio jekyll zenodo east
 tags: member appointments

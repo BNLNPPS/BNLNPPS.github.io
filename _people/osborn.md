@@ -4,7 +4,7 @@ name: osborn
 experiments: sphenix eic
 teams: reconstruction
 software: acts
-tags: member
+tags: member leader
 appointments: sPHENIX Analysis Coordinator
 layout: default
 ---
