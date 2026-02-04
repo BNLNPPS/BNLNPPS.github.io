@@ -3,7 +3,7 @@ title: ePIC Experiment at the Electron Ion Collider (EIC)
 abbrev: EIC - ePIC
 experiment: eic
 teams: simulation reconstruction analysis ml
-software: eicsmear east jekyll lxr eic-software esi-software swf-testbed
+software: eicsmear east jekyll lxr eic-software esi-software eic-opticks swf-testbed
 layout: default
 ---
 

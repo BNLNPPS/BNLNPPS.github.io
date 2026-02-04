@@ -3,7 +3,7 @@ title: Dmitri Smirnov
 name: smirnov
 experiments: star esi
 teams: simulation swsupport
-software: esi-shell
+software: esi-shell eic-opticks geant4
 tags: member
 layout: default
 ---
